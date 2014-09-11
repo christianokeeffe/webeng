@@ -1,4 +1,5 @@
 <?php
+include("Model/CountryModel.php");
 class Model
 {
     public $string;
