@@ -6,5 +6,5 @@ class Model
     public function __construct(){
         $this->string = “MVC + PHP = Awesome, click here!”;
     }
- 
+  
 }
