@@ -2,9 +2,9 @@
 <head></head>
 <body>
 <?php
-include("Model.php");
-include("View.php");
-include("Controller.php");
+include("model/Model.php");
+include("view/View.php");
+include("controller/Controller.php");
 $model = new Model();
 $controller = new Controller($model);
 $view = new View($controller, $model);
