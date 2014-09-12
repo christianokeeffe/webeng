@@ -32,7 +32,7 @@ class CountryModel
 			$key = array_search($objectToChange,$this->listOfCountries);
 			$this->listOfCountries[$key] = $objectToChangeToo;
 			
-			$this->dbReplace($objectToChange->id, $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
+			$this->dbReplace($objectToChange->getId(), $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
 		} else {
 			echo "ERROR";
 		}

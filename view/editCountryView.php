@@ -12,14 +12,21 @@ class editCountryView
     }
     
     public function output() {
-    	?>
-            <form method="POST" action="?action=editDone">
+    	if($this->countryController->isDone == true)
+        {
+            echo "It has been edited";
+        }
+        else
+        {
+        ?>
+            <form role="form" method="POST" action="?action=editDone&page=countryEdit">
             <input type="hidden" name="countryID" value="<?echo $this->country->getId();?>">
-            <input type="text" name="name" value="<?echo $this->country->getName();?>">
-            <input type="text" name="capital" value="<?echo $this->country->getCapital();?>">
-            <input type="text" name="population" value="<?echo $this->country->getPopulation();?>">
-            <input type="submit" value="Save changes">
+            <input type="text" class="form-control" name="name" value="<?echo $this->country->getName();?>">
+            <input type="text" class="form-control" name="capital" value="<?echo $this->country->getCapital();?>">
+            <input type="text" class="form-control" name="population" value="<?echo $this->country->getPopulation();?>">
+            <input type="submit" class="form-control" value="Save changes">
             </form> 
         <?
+        }
     }
 }
