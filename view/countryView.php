@@ -9,8 +9,17 @@ class countryView
         $this->countryModel = $countryModel;
     }
     
-    public function listCountrys()
-    	foreach ($countries as $country) {
-    		# code...
+    public function listCountrys() {
+    	echo "<table>";
+    	foreach ($this->countryModel->listOfCountries as $country) {
+    		?>
+    			<tr>
+    				<td><?echo $country->getName()?></td>
+    				<td><?echo $country->getCapital()?></td>
+    				<td><?echo $country->getPopulation()?></td>
+				</tr>
+    		<?
     	}
+    	echo "</table>";
+    }
 }

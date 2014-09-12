@@ -7,6 +7,7 @@ class Model
  
     public function __construct(){
         $this->string = "MVC + PHP = Awesome, click here!";
+        $this->getData();
     }
 	
 	private function getData(){
@@ -20,11 +21,11 @@ class Model
 		$result = mysqli_query($con,"SELECT * FROM country");
 		
 		$counter = 0;
-		$listOfcountries = array();
+		$this->listOfCountries = array();
 		
 		while($row = mysqli_fetch_array($result)) {
 			$tmp = new Country($row['name'],$row['capital'],$row['population']);
-			$listOfCountries[$counter] = $temp;
+			array_push($this->listOfCountries,$tmp);
 			$counter++;
 		}
 
