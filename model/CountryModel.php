@@ -30,20 +30,17 @@ class CountryModel
 	public function setData($objectToChange, $objectToChangeToo){
 		if (in_array($objectToChange,$this->listOfCountries)){
 			$key = array_search($objectToChange,$this->listOfCountries);
-			$this->listOfCountries[$key]->id = $objectToChangeToo->id;
-			$this->listOfCountries[$key]->name = $objectToChangeToo->name;
-			$this->listOfCountries[$key]->capital = $objectToChangeToo->capital;
-			$this->listOfCountries[$key]->population = $objectToChangeToo->population;
+			$this->listOfCountries[$key] = $objectToChangeToo;
 			
-			$this->dbReplace($objectToChange->id, $objectToChangeToo->id, $objectToChangeToo->name, $objectToChangeToo->capital, $objectToChangeToo->population);
+			$this->dbReplace($objectToChange->id, $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
 		} else {
 			echo "ERROR";
 		}
 	}
 		
-	private function dbReplace($searchKey, $id, $name, $capital, $population){
+	private function dbReplace($searchKey, $name, $capital, $population){
 		$con = conFatory();
-		mysqli_query($con,"UPDATE country SET id=". $id ."AND name=". $name ."AND capital=". $capital ."AND population=". $population ."WHERE id=". $searchKey);
+		mysqli_query($con,"UPDATE country SET name=". $name ."AND capital=". $capital ."AND population=". $population ."WHERE id=". $searchKey);
 		mysqli_close($con);
 	}
 }
