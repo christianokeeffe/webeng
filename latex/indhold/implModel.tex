@@ -1,0 +1,63 @@
+\section{Implementation of Model}
+Each table in the database has one model class, and one meta data class. The meta data class is the direct representation of one row in the table. An example can be seen on \Cref{lst:countryMetaData}. The getters is a direct copy of the elements in the table on the database.
+
+\begin{code}{lst:countryMetaData}{An example of the country meta data class.}
+<?php
+class Country{
+	private $id;
+	private $name;
+	private $capital;
+	private $population;
+	
+	public function __construct($i, $n, $c, $p){
+		$this->id = $i;
+		$this->name = $n;
+		$this->capital = $c;
+		$this->population = $p;
+	}
+	
+	public function getId(){
+		return $this->id;
+	}
+	
+	public function getName(){
+		return $this->name;
+	}
+	
+	public function getCapital(){
+		return $this->capital;
+	}
+	
+	public function getPopulation(){
+		return $this->population;
+	}
+}
+?>
+\end{code}
+
+The model class for a table contains all database calls, an array of objects of the meta data class, and functions to update the database. An example can be seen on \Cref{lst:countryModel}.
+
+\begin{code}{lst:countryModel}{An example of the country model class.}
+public $string;
+	public $listOfCountries;
+ 
+    public function __construct(){
+        $this->getData();
+    }
+	
+	private function getData(){
+		$con = conFatory();
+
+		$result = mysqli_query($con,"SELECT * FROM country");
+		
+		$counter = 0;
+		$this->listOfCountries = array();
+		
+		while($row = mysqli_fetch_array($result)) {
+			$tmp = new Country($row['id'],$row['name'],$row['capital'],$row['population']);
+			array_push($this->listOfCountries,$tmp);
+			$counter++;
+		}
+
+		mysqli_close($con);
+	}
