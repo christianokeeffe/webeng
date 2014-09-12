@@ -1,0 +1,8 @@
+noget om xml filens indhold - inspiration
+
+mvc pattern
+
+model pattern - husk de andre patterns
+
+implemetering php
+
