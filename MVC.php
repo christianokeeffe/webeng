@@ -1,6 +1,10 @@
 <html>
-<head></head>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
 <body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <?php
 include("model/CountryModel.php");
 include("view/countryView.php");
