@@ -10,8 +10,17 @@ class countryView
     }
     
     public function output() {
-    	echo "<table class=table table-striped table-bordered'>";
-		echo "<thead><tr> <th>Name</th><th>Capital ID</th><th>Population</th></thead><tbody>";
+		?>
+    	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Capital ID</th>
+				<th>Population</th>
+				<th>Action</th>
+		</thead>
+		<tbody>
+		<?
     	foreach ($this->countryModel->listOfCountries as $country) {
     		?>
     			<tr>
