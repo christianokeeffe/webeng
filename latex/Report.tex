@@ -1,0 +1,30 @@
+\input{preamble}
+\makeevenfoot{custom}{Page \thepage~of \pageref{LastPage}}{}{Aalborg University}	% Definerer lige siders sidefod efter modellen \makeevenfoot{Navn}{Venstre}{Center}{Højre}
+\makeoddfoot{custom}{Aalborg University}{}{Page \thepage~of \pageref{LastPage}}% Definerer ulige siders sidefod efter modellen \makeoddfoot{Navn}{Venstre}{Center}{Højre}		
+\pagestyle{custom}
+\begin{document}	% Starter dokumentet - obligatorisk
+
+\newcommand{\ind}[1]{\input{formalia/#1}}
+
+\ind{FormaliaForside}
+\clearpage % Indsætter tom side (hvis nødvendigt)
+ % Hovedindhold - nummereres fra side 1
+
+\renewcommand{\ind}[1]{\input{indhold/#1}}
+
+
+%%%% Kilder %%%
+\begingroup
+	\raggedright
+
+	\bibliography{BibTeX/sources}{}	% Litteraturlisten
+	\label{chap:source}
+\endgroup
+
+
+%%%% Fixme-listen %%%%
+
+%\newpage
+%\listoffixmes	% Fixme-listen - fjernes til sidst i projektet med "%"
+
+\end{document}

@@ -1,0 +1,449 @@
+\documentclass[a4paper,11pt,fleqn,twoside,openright]{memoir} % Brug openright hvis chapters skal starte på højresider; openany, oneside
+
+%%%% PACKAGES %%%%
+
+%  Oversættelse og tegnsætning  %
+\usepackage[utf8]{inputenc}					% Gør det muligt at bruge æ, ø og å i sine .tex-filer
+
+\raggedbottom
+\usepackage[all]{nowidow}
+\usepackage[T1]{fontenc}  % Hjælper med orddeling ved æ, ø og å. Sætter fontene til at være ps-fonte, i stedet for bmp	
+\usepackage{syntax} %til BNF
+\usepackage{everyshi}
+\makeatletter
+\let\totalpages\relax
+\newcounter{mypage}
+\EveryShipout{\stepcounter{mypage}}
+\AtEndDocument{\clearpage
+   \immediate\write\@auxout{%
+    \string\gdef\string\totalpages{\themypage}}}
+\makeatother
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage[lined,boxed,linesnumbered]{algorithm2e}
+\usepackage{latexsym}										% LaTeX symboler
+\usepackage{xcolor,ragged2e,fix-cm}			% Justering af elementer
+\usepackage{pdfpages} % Gør det muligt at inkludere pdf-dokumenter med kommandoen \includepdf[pages={x-y}]{fil.pdf}	
+\usepackage{fixltx2e}					% Retter forskellige bugs i LaTeX-kernen
+\usepackage{color}
+\definecolor{darkgray}{rgb}{0.95,0.95,0.95}
+\usepackage{listings}
+\usepackage{qtree}
+\usepackage{multicol}
+
+
+ \lstloadlanguages{% Check Dokumentation for further languages ...
+         %[Visual]Basic
+         %Pascal
+         %C
+	%[Sharp]C
+         %C++
+         %XML
+         %HTML
+         Java
+ }
+\lstset{ %
+inputencoding=utf8,
+literate=%
+{æ}{{\ae}}1
+{å}{{\aa}}1
+{ø}{{\o}}1
+{Æ}{{\AE}}1
+{Å}{{\AA}}1
+{Ø}{{\O}}1,
+language=Java,                % the language of the code
+basicstyle=\footnotesize\ttfamily,       % the size of the fonts that are used for the code
+float = H,
+xleftmargin = 10pt,
+xrightmargin = 10pt,
+rulecolor = \color{black},
+numbers=left,                   % where to put the line-numbers
+numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
+                                % will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+tabsize=2,                      % sets default tabsize to 2 spaces
+captionpos=b,                   % sets the caption-position to bottom
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+               % show the filename of files included with \lstinputlisting;
+                                % also try caption instead of title
+escapeinside={\%*}{*)},         % if you want to add a comment within your code
+keywordstyle=\color[rgb]{0,0,1},
+commentstyle=\color[rgb]{0.133,0.545,0.133},
+stringstyle=\color[rgb]{0.627,0.126,0.941},
+morekeywords={}
+}
+
+% add frame environment
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{%
+    skipbelow=\topskip,
+    skipabove=\topskip,
+    leftmargin=50pt,
+    rightmargin=0pt,
+    backgroundcolor=darkgray,
+    middlelinecolor=black,
+    roundcorner=10
+}
+
+\mdfdefinestyle{RoundStyle}{%
+ skipbelow=\topskip,
+    skipabove=\topskip,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    backgroundcolor=darkgray,
+    middlelinecolor=black,
+    roundcorner=10}
+
+% needed for \lstcapt
+\def\ifempty#1{\def\temparg{#1}\ifx\temparg\empty}
+
+% make new caption command for listings
+\usepackage{caption}
+\newcommand{\lstcapt}[2][]{%
+    \ifempty{#1}%
+        \captionof{lstlisting}{#2}%
+    \else%
+        \captionof{lstlisting}[#1]{#2}%
+    \fi%
+    \vspace{0.75\baselineskip}%
+}
+
+\usepackage{tabularx}
+\usepackage{changepage}
+
+																			
+%  Figurer og tabeller floats %
+\pdfoptionpdfminorversion=6	% Muliggør inkludering af pdf dokumenter, af version 1.6 og højere
+\usepackage{graphicx} 		% Pakke til jpeg/png billeder
+\usepackage{rotating}	
+
+%  Matematiske formler og maskinkode 
+\usepackage{amsmath,amssymb,stmaryrd} 	% Bedre matematik og ekstra fonte
+\usepackage{textcomp}                 	% Adgang til tekstsymboler
+\usepackage{mathtools}			% Udvidelse af amsmath-pakken.
+\usepackage{siunitx}			% Flot og konsistent præsentation af tal og enheder med \SI{tal}{enhed}
+
+%  Referencer, bibtex og url'er  %
+\usepackage{url}	% Til at sætte urler op med. Virker sammen med ref
+%\usepackage[danish]{varioref} % Giver flere bedre mulighed for at lave krydshenvisninger
+\usepackage[english]{varioref} % Giver flere bedre mulighed for at lave krydshenvisninger
+\usepackage{natbib}	% Litteraturliste med forfatter-år og nummerede referencer
+\usepackage{xr}		% Referencer til eksternt dokument med \externaldocument{<NAVN>}
+\usepackage{nomencl}	% Pakke til at danne nomenklaturliste
+\makenomenclature		% Nomenklaturliste
+
+%  Floats  %
+\let\newfloat\relax 	% Memoir har allerede defineret denne, men det gør float pakken også
+\usepackage{float}
+%\usepackage[footnote,draft,danish,silent,nomargin]{fixme}	% Indsæt rettelser og lignende med \fixme{...} Med final i stedet for draft, udløses en error for hver fixme, der ikke er slettet, når rapporten bygges.
+%\usepackage[final,silent]{fixme}
+\usepackage[draft, danish,silent]{fixme}
+
+%%%% CUSTOM SETTINGS %%%%
+
+%  Marginer  %
+\setlrmarginsandblock{3.5cm}{2.5cm}{*}	% \setlrmarginsandblock{Indbinding}{Kant}{Ratio}
+\setulmarginsandblock{2.5cm}{3.0cm}{*}	% \setulmarginsandblock{Top}{Bund}{Ratio}
+\checkandfixthelayout 
+
+%  Litteraturlisten  %
+\bibpunct[,]{[}{]}{;}{a}{,}{,} 	% Definerer de 6 parametre ved Harvard henvisning (bl.a. parantestype og seperatortegn)
+\bibliographystyle{bibtex/harvard}	% Udseende af litteraturlisten. Ligner dk-apali - mvh Klein
+
+%  Indholdsfortegnelse  %
+\setsecnumdepth{subsubsection}	% Dybden af nummerede overkrifter (part/chapter/section/subsection)
+\maxsecnumdepth{subsubsection}	% Ændring af dokumentklassens grænse for nummereringsdybde
+\settocdepth{section} 		% Dybden af indholdsfortegnelsen
+
+
+%  Visuelle referencer  %
+\usepackage[colorlinks, bookmarksnumbered, bookmarksdepth=4]{hyperref} % Giver mulighed for at ens referencer bliver til klikbare hyperlinks. .. [colorlinks]{..}
+%\usepackage{memhfixc}
+\hypersetup{pdfborder = 0 0 0}	% Fjerner ramme omkring links i fx indholsfotegnelsen og ved kildehenvisninger 
+\hypersetup{			%	Opsætning af farvede hyperlinks
+    colorlinks = false,
+    linkcolor = black,
+    anchorcolor = black,
+    citecolor = black
+}
+\usepackage{footnote}
+\makesavenoteenv{tikzpicture}
+
+\definecolor{gray}{gray}{0.80}					% Definerer farven grå
+
+%  Kapiteludssende  %
+\definecolor{numbercolor}{gray}{0.7}			% Definerer en farve til brug til kapiteludseende
+\newif\ifchapternonum
+
+\makechapterstyle{jenor}{			% Definerer kapiteludseende -->
+  \renewcommand\printchaptername{}
+  \renewcommand\printchapternum{}
+  \renewcommand\printchapternonum{\chapternonumtrue}
+  \renewcommand\chaptitlefont{\fontfamily{pbk}\fontseries{db}\fontshape{n}\fontsize{25}{35}\selectfont\raggedleft}
+  \renewcommand\chapnumfont{\fontfamily{pbk}\fontseries{m}\fontshape{n}\fontsize{1in}{0in}\selectfont\color{numbercolor}}
+  \renewcommand\printchaptertitle[1]{%
+    \noindent
+    \ifchapternonum
+    \begin{tabularx}{\textwidth}{X}
+    {\let\\\newline\chaptitlefont ##1\par} 
+    \end{tabularx}
+    \par\vskip-2.5mm\hrule
+    \else
+    \begin{tabularx}{\textwidth}{Xl}
+    {\parbox[b]{\linewidth}{\chaptitlefont ##1}} & \raisebox{-15pt}{\chapnumfont \thechapter}
+    \end{tabularx}
+    \par\vskip2mm\hrule
+    \fi
+  }
+}			% <--
+
+\chapterstyle{jenor}	% Valg af kapiteludseende - dette kan udskiftes efter ønske
+\usepackage{wrapfig}
+
+
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage{enumitem}
+% Sidehoved %
+
+\makepagestyle{custom} % Definerer sidehoved og sidefod - kan modificeres efter ønske -->
+\makepsmarks{custom}{																						
+\def\chaptermark##1{\markboth{\itshape\thechapter. ##1}{}} % Henter kapitlet den pågældende side hører under med kommandoen \leftmark. \itshape gør teksten kursiv
+\def\sectionmark##1{\markright{\thesection. ##1}{}}	% Henter afsnittet den pågældende side hører under med kommandoen \rightmark
+} % Sidetallet skrives med kommandoen \thepage	
+\makeevenhead{custom}{\leftmark}{}{Group SW615F14} % Definerer lige siders sidehoved efter modellen \makeevenhead{Navn}{Venstre}{Center}{Højre}
+\makeoddhead{custom}{Group SW615F14}{}{\leftmark} % Definerer ulige siders sidehoved efter modellen \makeoddhead{Navn}{Venstre}{Center}{Højre}
+
+\usepackage{lastpage}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage{nth}
+
+\makeevenfoot{custom}{Page \thepage}{}{Aalborg University}	% Definerer lige siders sidefod efter modellen \makeevenfoot{Navn}{Venstre}{Center}{Højre}
+\makeoddfoot{custom}{Aalborg University}{}{Page \thepage}% Definerer ulige siders sidefod efter modellen \makeoddfoot{Navn}{Venstre}{Center}{Højre}		
+\makeheadrule{custom}{\textwidth}{0.5pt}	 % Tilføjer en streg under sidehovedets indhold
+\makefootrule{custom}{\textwidth}{0.5pt}{1mm}	% Tilføjer en streg under sidefodens indhold
+
+\copypagestyle{nychapter}{custom} % Følgende linier sørger for, at sidefoden bibeholdes på kapitlets første side
+\makeoddhead{nychapter}{Group SW615F14}{}{\leftmark}
+\makeevenhead{nychapter}{Group SW615F14}{}{\leftmark}
+\makeheadrule{nychapter}{\textwidth}{0pt}
+\aliaspagestyle{chapter}{nychapter}	% <--
+\aliaspagestyle{cleared}{custom}
+
+\pagestyle{custom}
+
+\usepackage{newfloat}
+
+%%%% CUSTOM COMMANDS %%%%
+
+\let\originaltable\table
+\let\endoriginaltable\endtable
+\renewenvironment{table}[1][h!t]{%
+  \originaltable[#1]
+  \centering}%
+  {\endoriginaltable}
+
+% Billede hack %
+\newcommand{\figur}[4]{
+		\begin{figure}[H] \centering
+			\includegraphics[width=#1\textwidth]{billeder/#2}
+			\caption{#3}\label{#4}
+		\end{figure} 
+}
+
+% højrepil %
+\newcommand{\ra}[0]{\rightarrow}
+% epsilon %
+\newcommand{\eps}{\varepsilon}
+
+%navne macro
+\usepackage{xspace}
+\newcommand{\piko}{\textit{Piktooplæser}\xspace}
+\newcommand{\ol}{\textit{Oasis Library}\xspace}
+\newcommand{\oa}{\textit{Oasis App}\xspace}
+\newcommand{\ps}{\textit{Pictosearch}\xspace}
+\newcommand{\ldb}{\textit{LocalDB}\xspace}
+\newcommand{\pa}{\textit{Parrot}\xspace}
+\newcommand{\pt}{\textit{Piktotegner}\xspace}
+\newcommand{\cat}{\textit{Kategoriværktøjet}\xspace}
+
+% Vektor hack %
+\newcommand{\vektor}[3]{
+			$\begin{pmatrix}
+				#1 \\ #2 \\ #3
+			\end{pmatrix}$
+}
+
+% declare the floating environment {Grammar}
+% this will also define \listofGrammars:
+\DeclareFloatingEnvironment[
+  % the file extension for the file used to create the list:
+  fileext   = logr,% don't use log here!
+  % the heading for the list:
+  listname  = {List of Grammars},
+  % the name used in captions:
+  name      = Grammar,
+  % the default floating parameters if the environment is used
+  % without optional argument:
+  placement = H
+]{Grammar}
+
+%grammatik
+\newenvironment{grammatik}[2]
+{
+\def\fooNoI{#1} \def\fooNoII{#2}
+\begin{Grammar}
+\begin{grammar}
+}
+{
+\end{grammar}
+\caption{\fooNoII}\label{gra:\fooNoI}
+\end{Grammar}
+}
+
+%tikz
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows}
+\usetikzlibrary{shapes,arrows}
+\tikzstyle{mynodestyle} = [draw,outer sep=3,inner sep=3,minimum size=10,line width=1, very thick, draw=black!55, top color=white,bottom color=black!20]
+
+\usetikzlibrary{arrows}
+\tikzstyle{io} = [font={\bfseries},trapezium,trapezium left angle=70,trapezium right angle=-70,minimum height=0.5cm,line width=1, text=black, very thick, draw=black!55, top color=white, align=center ]
+\tikzstyle{linear} = [draw, -latex']
+\tikzstyle{cirkel} = [ font={\bfseries}, shape=circle, outer sep=4,minimum size=0.5cm, text=black, very thick, draw=black!55, top color=white, align=center]
+\tikzstyle{cirkelgray} = [ font={\bfseries}, shape=circle, outer sep=4,minimum size=0.5cm, text=black, very thick, draw=black!55, top color=gray, align=center]
+\tikzstyle{firkant} = [ font={\bfseries},outer sep=4,inner sep=7,minimum size=0.5cm,line width=1, text=black, very thick, draw=black!55, top color=white, align=center]
+\tikzstyle{firkantgray} = [ font={\bfseries},outer sep=4,inner sep=7,minimum size=0.5cm,line width=1, text=black, very thick, draw=black!55, top color=gray, align=center]
+\tikzstyle{tekst} = []
+\tikzstyle{bendH} = [bend right=40, -triangle 60, color=red]
+\tikzstyle{bendV} = [bend left=40, -triangle 60, color=red]
+\tikzstyle{afrundetFirkant} = [ rounded corners ,font={\bfseries},outer sep=4,inner sep=7,minimum size=0.5cm,line width=1, text=black, very thick, draw=black!55, top color=white, align=center]
+\tikzstyle{rude} = [ draw, diamond, aspect=2 ,font={\bfseries},outer sep=4,inner sep=7,minimum size=0.5cm,line width=1, text=black, very thick, draw=black!55, top color=white, align=center]
+\tikzstyle{sortCirkel} = [cirkel, black, top color=black, bottom color = black]
+\tikzstyle{sortCirkelPrikInner} = [cirkel, white, top color=black, bottom color = black, minimum size=0.5cm]
+\tikzstyle{sortCirkelPrikOuter} = [cirkel, black, top color=white, bottom color = white, minimum size=0.7cm]
+\tikzstyle{DB} = [draw=black,cylinder,shape border rotate=90,shape aspect=.25,font={\bfseries}]
+
+%kode
+\newcommand{\kode}[3]{
+\noindent
+\newline
+\newline
+\begin{minipage}{\textwidth}
+\begin{mdframed}
+		\lstinputlisting{kode/#3}
+
+\end{mdframed}\lstcapt{#1}\label{lst:#2}
+\end{minipage}
+}
+
+\newenvironment{code}[2]
+{\def\fooNoI{#1} \def\fooNoII{#2}\noindent\newline \begin{minipage}{\textwidth}\begin{mdframed}[style=RoundStyle]}{\end{mdframed}\lstcapt{\fooNoII}\label{\fooNoI}\end{minipage}}
+
+% quotering
+\newcommand{\gaas}[{1}]{``#1''}
+
+% lilleitem
+%\newenvironment{noindlist}
+ %{\vspace{-5mm}\begin{list}{\labelitemi}{\leftmargin=1em \itemindent=0em }
+%\addtolength{\itemsep}{-0.5\baselineskip}}
+ %{\end{list}
+%\vspace{-20em}}
+
+\newcommand{\Tau}{\mathrm{T}}
+
+\newlist{Description}{description}{1}
+\setlist[Description]{labelindent=2\parindent,leftmargin=2\parindent}
+
+\newenvironment{inddes}
+ {\begin{description}[font=$\bullet$\scshape\bfseries, labelindent=2\parindent,leftmargin=2\parindent]
+ }
+ {\end{description}}
+
+\newenvironment{noindlist}
+ {\vspace{-5mm}\begin{list}{\labelitemi}{\leftmargin=1em \itemindent=0em }
+        \setlength{\topsep}{0pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\partopsep}{0pt}
+        \setlength{\parsep}{0pt}         
+        \setlength{\itemsep}{0pt} }
+ {\end{list}}
+
+\newcommand{\doublesignaturestart}[2]{%
+  \parbox{\textwidth}{
+    \centering Aalborg, \today\\
+    \vspace{2cm}
+
+    \parbox{7cm}{
+      \centering
+      \rule{6cm}{1pt}\\
+       #1 
+    }
+    \hfill
+    \parbox{7cm}{
+      \centering
+      \rule{6cm}{1pt}\\
+      #2
+    }
+  }
+}
+
+\newcommand{\longtablesetting}[1]{
+\endhead
+\multicolumn{#1}{c}{\textit{Continued on next page}} \\
+\endfoot
+\endlastfoot
+}
+
+\newcommand{\subsubsubsection}[1]{
+\noindent
+\textbf{#1}
+}
+
+\newcommand{\doublesignature}[2]{%
+  \parbox{\textwidth}{
+\vspace{2cm}
+    \parbox{7cm}{
+      \centering
+      \rule{6cm}{1pt}\\
+       #1 
+    }
+    \hfill
+    \parbox{7cm}{
+      \centering
+      \rule{6cm}{1pt}\\
+      #2
+    }
+  }
+}
+
+\newcommand{\strips}[3]{
+\noindent \textbf{#1}\\
+\indent \textbf{Precond:} #2\\
+\indent \textbf{Effect:} #3\\\newline
+}
+
+%%%% ORDDELING %%%%
+
+\hyphenation{hvad hvem hvor listOfErrors}
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+
+%----------------SPROG------------------------
+%----------------dk
+%\usepackage[danish]{babel}							% Dansk sporg, f.eks. tabel, figur og kapitel
+%\renewcommand{\algorithmcfname}{Algoritme}
+%\renewcommand*{\lstlistingname}{Kodeudsnit}
+%----------------en
+\usepackage[english]{babel}
+\usepackage{cleveref}
+
+
+\usepackage{pdflscape}
