@@ -40,7 +40,7 @@ class CountryModel
 		
 	private function dbReplace($searchKey, $name, $capital, $population){
 		$con = conFatory();
-		mysqli_query($con,"UPDATE country SET name=". $name ."AND capital=". $capital ."AND population=". $population ."WHERE id=". $searchKey);
+		mysqli_query($con,"UPDATE country SET name='". $name ."', capital='". $capital ."', population=". $population ." WHERE id='". $searchKey. "'");
 		mysqli_close($con);
 	}
 }
