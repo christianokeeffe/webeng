@@ -1,6 +1,6 @@
 <?php
 include("metadata/CountryMetaData.php");
-class Model
+class CountryModel
 {
     public $string;
 	public $listOfCountries;
