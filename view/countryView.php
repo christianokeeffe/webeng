@@ -14,12 +14,12 @@ class countryView
     	foreach ($this->countryModel->listOfCountries as $country) {
     		?>
     			<tr>
-    				<td><?echo $country->getName()?></td>
-    				<td><?echo $country->getCapital()?></td>
-    				<td><?echo $country->getPopulation()?></td>
+    				<td><? echo $country->getName()?></td>
+    				<td><? echo $country->getCapital()?></td>
+    				<td><? echo $country->getPopulation()?></td>
     				<td><a href="?page=countryEdit&id=<?echo $country->getId();?>">Edit</a></td>
 				</tr>
-    		<?php
+    		<?
     	}
     	echo "</table>";
     }
