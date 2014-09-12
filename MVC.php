@@ -2,7 +2,7 @@
 <head></head>
 <body>
 <?php
-include("model/Model.php");
+include("model/CountryModel.php");
 include("view/View.php");
 include("controller/Controller.php");
 include("view/countryView.php");
