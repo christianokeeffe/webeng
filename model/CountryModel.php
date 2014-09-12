@@ -1,5 +1,6 @@
 <?php
 include("metadata/CountryMetaData.php");
+include("SQLConnect.php");
 class CountryModel
 {
     public $string;
@@ -10,7 +11,7 @@ class CountryModel
     }
 	
 	private function getData(){
-		$con = mysqli_connect("localhost","root","","mondial");
+		$con = conFatory();
 
 		$result = mysqli_query($con,"SELECT * FROM country");
 		
@@ -41,7 +42,7 @@ class CountryModel
 	}
 		
 	private function dbReplace($searchKey, $id, $name, $capital, $population){
-		$con = include("SQLConnect.php");
+		$con = conFatory();
 		mysqli_query($con,"UPDATE country SET id=". $id ."AND name=". $name ."AND capital=". $capital ."AND population=". $population ."WHERE id=". $searchKey);
 		mysqli_close($con);
 	}
