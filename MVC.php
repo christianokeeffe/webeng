@@ -7,9 +7,9 @@
 <script src="js/bootstrap.min.js"></script>
 <?php
 include("model/CountryModel.php");
-include("view/countryView.php");
 include("controller/countryController.php");
-
+include("view/countryView.php");
+include("view/editCountryView.php");
 $model;
 $controller;
 $view;

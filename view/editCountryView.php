@@ -8,7 +8,7 @@ class editCountryView
     public function __construct($countryController,$countryModel) {
         $this->countryController = $countryController;
         $this->countryModel = $countryModel;
-        $this->country = $this->countryModel->getCountryByID($_GET['id']);
+        $this->country = $this->countryController->getCountryByID($_GET['id']);
     }
     
     public function output() {

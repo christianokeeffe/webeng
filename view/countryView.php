@@ -10,7 +10,7 @@ class countryView
     }
     
     public function output() {
-    	echo "<table>";
+    	echo "<table class=table table-striped'>";
     	foreach ($this->countryModel->listOfCountries as $country) {
     		?>
     			<tr>
