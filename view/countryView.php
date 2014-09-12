@@ -19,8 +19,9 @@ class countryView
     				<td><?echo $country->getPopulation()?></td>
     				<td><a href="?page=countryEdit&id=<?echo $country->getId();?>">Edit</a></td>
 				</tr>
-    		<?
+    		<?php
     	}
     	echo "</table>";
     }
 }
+?>

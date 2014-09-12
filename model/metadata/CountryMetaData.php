@@ -6,7 +6,7 @@ class Country{
 	private $population;
 	
 	public function __construct($i, $n, $c, $p){
-		$this->id = $id;
+		$this->id = $i;
 		$this->name = $n;
 		$this->capital = $c;
 		$this->population = $p;

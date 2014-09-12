@@ -4,20 +4,13 @@ class CountryModel
 {
     public $string;
 	public $listOfCountries;
-	private $con;
  
     public function __construct(){
         $this->getData();
-		$con=mysqli_connect("localhost","root","root","mondial");
-		// Check connection
-		if (mysqli_connect_errno()) {
-		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-		}
-		mysqli_close($con);
     }
 	
 	private function getData(){
-		mysqli_open($con);
+		$con = mysqli_connect("localhost","root","","mondial");
 
 		$result = mysqli_query($con,"SELECT * FROM country");
 		
@@ -48,7 +41,7 @@ class CountryModel
 	}
 		
 	private function dbReplace($searchKey, $id, $name, $capital, $population){
-		mysqli_open($con);
+		$con = include("SQLConnect.php");
 		mysqli_query($con,"UPDATE country SET id=". $id ."AND name=". $name ."AND capital=". $capital ."AND population=". $population ."WHERE id=". $searchKey);
 		mysqli_close($con);
 	}
