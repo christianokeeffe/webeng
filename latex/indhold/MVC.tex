@@ -1,0 +1,11 @@
+\section{MVC pattern}
+The model-view-control pattern is a pattern which insures data binding between the interface, the view and the data, the model through interaction from the user, the controller.
+The general idea is to create a model which contains the data which is to be processed in somewhere and proceed to load the data into the model.
+Next step is to create views to display the information to the users in manageable and nice way. The last step is to create the controller, methods and functions for the user to manipulate the shown information and aggregated it back to model which then is updated.
+
+\subsection{Model-part}
+There are different structures that can used to construct the model of the data. One way is to a gateway, which through some functions finds the needed data in the database. Another method is to create an objects or records which is used to contain the data. A third method is to use transaction to get and update data in the database. A fought method is to create a object to contain the data and another object to map the data between the database and the application.
+
+\fxfatal{skrive om view og controller parts ?}
+
+This is a widespread technique to create web application and us supported by many frameworks. An example could be angular which practices two way binding in their constructions.
