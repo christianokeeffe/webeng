@@ -8,23 +8,6 @@ class ImportModel
         $this->getData();
     }
 	
-	private function getData(){
-		$con = conFatory();
-
-		$result = mysqli_query($con,"SELECT * FROM country");
-		
-		$counter = 0;
-		$this->listOfCountries = array();
-		
-		while($row = mysqli_fetch_array($result)) {
-			$tmp = new Country($row['id'],$row['name'],$row['capital'],$row['population']);
-			array_push($this->listOfCountries,$tmp);
-			$counter++;
-		}
-
-		mysqli_close($con);
-	}
-	
 	public function setData($objectToChange, $objectToChangeToo){
 		if (in_array($objectToChange,$this->listOfCountries)){
 			$key = array_search($objectToChange,$this->listOfCountries);
