@@ -43,7 +43,7 @@ class ImportModel
 					{
 						$first = false;
 					}
-					$sqlstring .= "('". $city->geCountry() . "','" $city->getId() . "','" . $city->getLatitude() . "','" . $city->getLongtitude() . "','" . $city->getName() . "','" . $city->getProvince . "')"; 
+					$sqlstring .= "('". $city->getCountry() . "','" $city->getId() . "','" . $city->getLatitude() . "','" . $city->getLongtitude() . "','" . $city->getName() . "','" . $city->getProvince . "')"; 
 				}
 				$sqlstring .= ";";
 				mysqli_query($con, $sqlstring);
