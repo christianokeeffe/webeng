@@ -30,7 +30,7 @@ class ImportModel
 					  $country->getId() . "','" . 
 					  $country->getIndep_date() . "','" .
 					   $country->getInfant_mortality() . "',";
-					$sqlstring .= $country->getInflation() . ",'" . $country->getName() . "'," . $country->getPopulation() . "," . $country->getPopulation_growth() . "," . $country.getTotal_area() . ")"; 
+					$sqlstring .= $country->getInflation() . ",'" . $country->getName() . "'," . $country->getPopulation() . "," . $country->getPopulation_growth() . "," . $country->getTotal_area() . ")"; 
 				}
 				$sqlstring .= ";";
 				mysqli_query($con, $sqlstring);
