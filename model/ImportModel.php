@@ -44,7 +44,24 @@ class ImportModel
 					{
 						$first = false;
 					}
-					$sqlstring .= "('". $city->geCountry() . "','" $city->getId() . "','" . $city->getLatitude() . "','" . $city->getLongtitude() . "','" . $city->getName() . "','" . $city->getProvince . "'')"; 
+					$sqlstring .= "('". $city->geCountry() . "','" $city->getId() . "','" . $city->getLatitude() . "','" . $city->getLongtitude() . "','" . $city->getName() . "','" . $city->getProvince . "')"; 
+				}
+				$sqlstring .= ";";
+				mysqli_query($con, $sqlstring);
+				break;
+			case 'continent':
+				$first = true;
+				$sqlstring = "INSERT INTO continent (id,name) VALUES ";
+				foreach ($listOfObjects as $continent) {
+					if(!$first)
+					{
+						$sqlstring .= ",";
+					}
+					else
+					{
+						$first = false;
+					}
+					$sqlstring .= "('". $continent->getId() . "','" . $continent->getName() . "')"; 
 				}
 				$sqlstring .= ";";
 				mysqli_query($con, $sqlstring);
