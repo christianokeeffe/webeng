@@ -25,7 +25,11 @@ class ImportModel
 						$first = false;
 					}
 					$sqlstring .= "('". $country->getCapital() . "','" . $country->getCarcode() . "','" . $country->getDatacode() . "'," . $country->getGdp_agri() . "," . $country->getGdp_ind() . "," . $country->getGdp_serv() . ",";
-					$sqlstring .= $country->getGdp_total() . ",'". $country->getGoverment() . "','" . $country->getId() . "','" . $country->getIndep_date() . "','" . $country.getInfant_mortality() . "',";
+					$sqlstring .= $country->getGdp_total() . ",'".
+					 $country->getGoverment() . "','" .
+					  $country->getId() . "','" . 
+					  $country->getIndep_date() . "','" .
+					   $country.getInfant_mortality() . "',";
 					$sqlstring .= $country->getInflation() . ",'" . $country->getName() . "'," . $country->getPopulation() . "," . $country.getPopulation_growth() . "," . $country.getTotal_area() . ")"; 
 				}
 				$sqlstring .= ";";
