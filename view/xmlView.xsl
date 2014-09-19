@@ -1,7 +1,7 @@
 <xsl:stylesheet version="1.0"
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html"/>
-<xsl:template match="//test">
+<xsl:template match="/">
  <html>
   <head>
     <h1>TEST</h1>
@@ -12,10 +12,10 @@
       <th>Countries</th>
       <th>Population</th>
     </tr>
-    <xsl:for-each select="country">
+    <xsl:for-each select="mondial/country">
     <tr>
       <td><xsl:value-of select="name"/></td>
-      <td><xsl:value-of select="population"/></td>
+      <td><xsl:value-of select="@population" /></td>
     </tr>
     </xsl:for-each>
   </table>
