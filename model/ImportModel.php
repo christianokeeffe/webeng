@@ -29,7 +29,7 @@ class ImportModel
 					 $country->getGoverment() . "','" .
 					  $country->getId() . "','" . 
 					  $country->getIndep_date() . "','" .
-					   $country.getInfant_mortality() . "',";
+					   $country->getInfant_mortality() . "',";
 					$sqlstring .= $country->getInflation() . ",'" . $country->getName() . "'," . $country->getPopulation() . "," . $country.getPopulation_growth() . "," . $country.getTotal_area() . ")"; 
 				}
 				$sqlstring .= ";";
