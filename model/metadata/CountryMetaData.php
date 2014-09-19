@@ -35,21 +35,21 @@ class Country{
 		$this->population_growth = $population_growth;
 		$this->total_area = $total_area;
 	}
-	
-	public function getId(){
-		return $this->id;
-	}
-	
-	public function getName(){
-		return $this->name;
-	}
-	
-	public function getCapital(){
-		return $this->capital;
-	}
-	
-	public function getPopulation(){
-		return $this->population;
-	}
+	public function getCapital(){return $this->capital;}
+	public function getCarcode(){return $this->carcode;}
+	public function getDatacode(){return $this->datacode;}
+	public function getGdp_agri(){return $this->gdp_agri;}
+	public function getGdp_ind(){return $this->gdp_ind;}
+	public function getGdp_serv(){return $this->gdp_serv;}
+	public function getGdp_total(){return $this->gdp_total;}
+	public function getGoverment(){return $this->goverment;}
+	public function getId(){return $this->id;}
+	public function getIndep_date(){return $this->indep_date;}
+	public function getInfant_mortality(){return $this->infant_mortality;}
+	public function getInflation(){return $this->inflation;}
+	public function getName(){return $this->name;}
+	public function getPopulation(){return $this->population;}
+	public function getPopulation_growth(){return $this->population_growth;}
+	public function getTotal_area(){return $this->total_area;}
 }
 ?>
