@@ -42,7 +42,7 @@ class ImportController
 	    						case "capital":
 	    							$this->capital = $countryData;
 	    							break;
-	    						case "carcode":
+	    						case "car_code":
 	    							$this->carcode = $countryData;
 	    							break;
 	    						case "datacode":
@@ -60,7 +60,7 @@ class ImportController
 	    						case "gdp_total":
 	    							$this->gdp_total = $countryData;
 	    							break;
-	    						case "goverment":
+	    						case "government":
 	    							$this->goverment = $countryData;
 	    							break;
 	    						case "id":
