@@ -1,0 +1,31 @@
+\section{Use of XSLT}
+We have explored the use of XSLT in our application, and have found out, that it was a fine way of quickly representing the content of a XML. It could be suitable to temporary represent the data, e.g. when verifyring a upload of an XML-file, but we do not intent to represent the whole application with XSLT, due to the lack of communication with the controller, and due to our choice of saving our data in MySQL.
+The example of our XSLT used for reprecenting a list of countries can be seen on \Cref{lst:xslt}.
+
+\begin{code}{lst:xslt}{An example of our XSLT file for listing the countries}
+<xsl:stylesheet version="1.0"
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html"/>
+<xsl:template match="/">
+ <html>
+  <head>
+    <h1>Countries</h1>
+  </head>
+  <body>
+   <table border="1">
+    <tr bgcolor="#9acd32">
+      <th>Countries</th>
+      <th>Population</th>
+    </tr>
+    <xsl:for-each select="mondial/country">
+    <tr>
+      <td><xsl:value-of select="name"/></td>
+      <td><xsl:value-of select="@population" /></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+  </body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+\end{code}

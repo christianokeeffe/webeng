@@ -4,7 +4,7 @@
 <xsl:template match="/">
  <html>
   <head>
-    <h1>TEST</h1>
+    <h1>Countries</h1>
   </head>
   <body>
    <table border="1">
