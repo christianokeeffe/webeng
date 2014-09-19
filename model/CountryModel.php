@@ -1,6 +1,4 @@
 <?php
-include("metadata/CountryMetaData.php");
-include("SQLConnect.php");
 class CountryModel
 {
     public $string;

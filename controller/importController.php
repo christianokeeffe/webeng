@@ -8,7 +8,9 @@ class ImportController
     public function __construct($model){
         $this->model = $model;
         $this->status = "init";
+        $this->extrated_continents = array();
         $this->extrated_countries = array();
+        $this->extrated_cities = array();
     	
         if(isset($_FILES["InputFile"]))
     	{
@@ -16,9 +18,28 @@ class ImportController
             $this->status = "uploaded";
 
 	    	$this->counter = 0;
+	    	$this->citycounter = 0;
+	    	$this->continentcounter = 0;
 
 	    	foreach ($this->xml->children() as $child) {
 	    		switch($child->getName()){
+	    			case "continent":
+	    				$this->continentname= "";
+	    				$this->continentid= "";
+	    				foreach ($child->attributes() as $continentData){
+	    					switch($continentData->getName()){
+	    						case "name":
+	    							$this->continentname = $continentData;
+	    							break;
+    							case "id":
+	    							$this->continentid = $continentData;
+	    							break;
+	    						}
+    					}
+
+    					$this->extrated_continents[$this->continentcounter] = new Continent($this->continentid,$this->continentname);
+						$this->continentcounter++;
+	    				break;
 	    			case "country":
 	    				$this->capital= "";
 	    				$this->carcode= "";
@@ -36,6 +57,98 @@ class ImportController
 						$this->population= "";
 						$this->population_growth= "";
 						$this->total_area= "";
+
+						foreach ($child as $citychild) {
+	    					switch($citychild->getName()){
+    							case "city":
+									$citycountry = "";
+									$cityid = "";
+									$citylatitude = "";
+									$citylongtitude = "";
+									$cityname = "";
+									$cityprovince = "";
+
+									foreach ($citychild as $citycitychild) {
+	    								switch($citycitychild->getName()){
+    									case "name":
+    										$cityname = trim($citycitychild);
+    										break;
+    									}
+    								}
+
+	    							foreach ($citychild->attributes() as $cityData){
+				    					switch($cityData->getName()){
+				    						case "id":
+				    							$cityid = $cityData;
+				    							break;
+			    							case "country":
+			    								$citycountry = $cityData;
+			    								break;
+		    								case "latitude":
+		    									$citylatitude = $cityData;
+    											break;
+											case "longitude":
+												$citylongtitude = $cityData;
+												break;
+											case "name":
+												$cityname = $cityData;
+												break;
+											case "province":
+												$cityprovince = $cityData;
+												break;
+				    					}
+				    				}
+		    					$this->extrated_cities[$this->citycounter] = new City($citycountry,$cityid,$citylatitude,$citylongtitude,$cityname,$cityprovince);
+	    						$this->citycounter++;
+	    						break;
+	    						case "province":
+		    						foreach ($citychild as $provincechild) {
+				    					switch($provincechild->getName()){
+			    							case "city":
+												$citycountry = "";
+												$cityid = "";
+												$citylatitude = "";
+												$citylongtitude = "";
+												$cityname = "";
+												$cityprovince = "";
+
+												foreach ($provincechild as $citycitychild) {
+				    								switch($citycitychild->getName()){
+			    									case "name":
+			    										$cityname = trim($citycitychild);
+			    										break;
+			    									}
+			    								}
+
+				    							foreach ($provincechild->attributes() as $cityData){
+							    					switch($cityData->getName()){
+							    						case "id":
+							    							$cityid = $cityData;
+							    							break;
+						    							case "country":
+						    								$citycountry = $cityData;
+						    								break;
+					    								case "latitude":
+					    									$citylatitude = $cityData;
+			    											break;
+														case "longitude":
+															$citylongtitude = $cityData;
+															break;
+														case "name":
+															$cityname = $cityData;
+															break;
+														case "province":
+															$cityprovince = $cityData;
+															break;
+							    					}
+							    				}
+					    					$this->extrated_cities[$this->citycounter] = new City($citycountry,$cityid,$citylatitude,$citylongtitude,$cityname,$cityprovince);
+				    						$this->citycounter++;
+				    						break;
+				    					}
+				    				}
+	    					}
+	    				}
 
 	    				foreach ($child->attributes() as $countryData){
 	    					switch($countryData->getName()){
@@ -105,5 +218,7 @@ class ImportController
     		}
     	}
     	$this->model->insertToDb("country",$this->extrated_countries);
+    	$this->model->insertToDb("continent",$this->extrated_continents);
+    	$this->model->insertToDb("city",$this->extrated_cities);
     }
 }

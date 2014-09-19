@@ -18,7 +18,7 @@ class City{
 	public function getCountry(){return $this->country;}
 	public function getId(){return $this->id;}
 	public function getLatitude(){return $this->latitude;}
-	public function getLontitude(){return $this->longtitude;}
+	public function getLongtitude(){return $this->longtitude;}
 	public function getName(){return $this->name;}
 	public function getProvince(){return $this->province;}
 }

@@ -6,6 +6,10 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <?php
+include("SQLConnect.php");
+include("model/metadata/CityMetaData.php");
+include("model/metadata/CountryMetaData.php");
+include("model/metadata/ContinentMetaData.php");
 include("model/CountryModel.php");
 include("model/ImportModel.php");
 include("controller/countryController.php");
