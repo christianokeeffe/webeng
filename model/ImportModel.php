@@ -5,7 +5,6 @@ class ImportModel
 	public $listOfCountries;
  
     public function __construct(){
-        $this->getData();
     }
 	
 	public function insertToDB($tableName, $listOfObjects){
