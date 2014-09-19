@@ -6,3 +6,12 @@ model pattern - husk de andre patterns
 
 implemetering php
 
+dag 2:
+
+xml - generelt
+
+how we reads the xml
+
+xtls
+
+xQuary
