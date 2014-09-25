@@ -5,5 +5,5 @@ $f3->route('GET /',
         echo 'Cool api!';
     }
 );
-$f3->run();
+$f3->run(); 
 ?>
