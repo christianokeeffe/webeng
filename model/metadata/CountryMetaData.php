@@ -1,5 +1,5 @@
 <?php
-class Country{
+class Country implements JsonSerializable{
 	private $capital;
 	private $carcode;
 	private $datacode;
@@ -35,6 +35,18 @@ class Country{
 		$this->population_growth = $population_growth;
 		$this->total_area = $total_area;
 	}
+
+	public function __get($capital) {
+    $this->capital;
+  }
+  public function jsonSerialize() {
+        $json = array();
+	    foreach($this as $key => $value) {
+	        $json[$key] = $value;
+	    }
+	    return $json; // or json_encode($json)
+    }
+
 	public function getCapital(){return $this->capital;}
 	public function getCarcode(){return $this->carcode;}
 	public function getDatacode(){return $this->datacode;}
