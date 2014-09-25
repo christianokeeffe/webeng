@@ -17,7 +17,7 @@ class CountryModel
 		$this->listOfCountries = array();
 		
 		while($row = mysqli_fetch_array($result)) {
-			$tmp = new Country($row['id'],$row['name'],$row['capital'],$row['population']);
+			$tmp = new Country($row['capital'],$row['car_code'],$row['datacode'],$row['gdp_agri'],$row['gdp_ind'],$row['gdp_serv'],$row['gdp_total'],$row['government'],$row['id'],$row['indep_date'],$row['infant_mortality'],$row['inflation'],$row['name'],$row['population'],$row['population_growth'],$row['total_area']);
 			array_push($this->listOfCountries,$tmp);
 			$counter++;
 		}
