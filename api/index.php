@@ -40,24 +40,44 @@ $f3->route('GET /country/@id',
 
 $f3->route('POST /country/@id', 
     function($f3, $params) {
-        $cmodel = new ContryModel();
-        $tempCountry = new Country($f3->get('capital'),
-                                    $f3->get('carcode'),
-                                    $f3->get('datacode'),
-                                    $f3->get('gdp_agri'),
-                                    $f3->get('gdp_ind'),
-                                    $f3->get('gdp_serv'),
-                                    $f3->get('gdp_total'),
-                                    $f3->get('goverment'),
-                                    $f3->get('id'),
-                                    $f3->get('indep_date'),
-                                    $f3->get('infant_mortality'),
-                                    $f3->get('inflation'),
-                                    $f3->get('name'),
-                                    $f3->get('population'),
-                                    $f3->get('population_growth'),
-                                    $f3->get('total_area'));
+        $cmodel = new CountryModel();
+        //$tempCountry = new Country($f3->get('capital'),
+        //                          $f3->get('carcode'),
+          //                           $f3->get('datacode'),
+            //                        $f3->get('gdp_agri'),
+              //                      $f3->get('gdp_ind'),
+                //                    $f3->get('gdp_serv'),
+                  //                  $f3->get('gdp_total'),
+                    //                $f3->get('goverment'),
+                      //              $f3->get('id'),
+                        //            $f3->get('indep_date'),
+                          //          $f3->get('infant_mortality'),
+                            //        $f3->get('inflation'),
+                              //      $f3->get('name'),
+                                //    $f3->get('population'),
+                                  //  $f3->get('population_growth'),
+                                    //$f3->get('total_area'));
+        
+        foreach($cmodel->listOfCountries as &$c){
+            if ($c->getId() == $params){
+                $tempCountry = $c;
+                break;
+            }
+        }
 
+        if($f3->get('name') != null){
+            $tempCountry->APIsetName();
+        } else if($f3->get('id') != null){
+            $tempCountry->APIsetID();
+        } else if($f3->get('capital') != null){
+            $tempCountry->APIsetCapital();
+        }
+        else if($f3->get('population') != null){
+            $tempCountry->APIsetPopulation();
+        } else {
+            return "ERROR";
+        }
+        //$this->$tempCountry->APIset($f3->get('name'),$f3->get('id'),$f3->get('capital'),$f3->get('population'));
         $cmodel->setData($params,$tempCountry);
     }
 );

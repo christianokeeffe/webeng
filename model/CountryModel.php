@@ -24,12 +24,10 @@ class CountryModel
 
 		mysqli_close($con);
 	}
-	
-	public function setData($objectToChangeID, $objectToChangeToo){
-		if (array_filter( function ($e){return $e->id != $objectToChangeID},$this->listOfCountries != null)
-		{
-			$this->listOfCountries[$objectToChangeID] = $objectToChangeToo;
-			
+
+	public function setData($objectToChangeToo){
+		if ($objectToChangeToo != null)
+		{	
 			$this->dbReplace($objectToChangeToo->getId(), $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
 		} else {
 			echo "ERROR";
@@ -41,4 +39,5 @@ class CountryModel
 		mysqli_query($con,"UPDATE country SET name='". $name ."', capital='". $capital ."', population=". $population ." WHERE id='". $searchKey. "'");
 		mysqli_close($con);
 	}
+
 }

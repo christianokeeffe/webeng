@@ -63,5 +63,10 @@ class Country implements JsonSerializable{
 	public function getPopulation(){return $this->population;}
 	public function getPopulation_growth(){return $this->population_growth;}
 	public function getTotal_area(){return $this->total_area;}
+
+	public function APISetName($name){$this->$name = $name;}
+	public function APISetID($id){$this->$id = $id;}
+	public function APISetCapital($capital){$this->$capital = $capital;}
+	public function APISetPopulation($population){$this->$population = $population;}
 }
 ?>
