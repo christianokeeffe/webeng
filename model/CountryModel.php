@@ -25,12 +25,12 @@ class CountryModel
 		mysqli_close($con);
 	}
 	
-	public function setData($objectToChange, $objectToChangeToo){
-		if (in_array($objectToChange,$this->listOfCountries)){
-			$key = array_search($objectToChange,$this->listOfCountries);
-			$this->listOfCountries[$key] = $objectToChangeToo;
+	public function setData($objectToChangeID, $objectToChangeToo){
+		if (array_filter( function ($e){return $e->id != $objectToChangeID},$this->listOfCountries != null)
+		{
+			$this->listOfCountries[$objectToChangeID] = $objectToChangeToo;
 			
-			$this->dbReplace($objectToChange->getId(), $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
+			$this->dbReplace($objectToChangeToo->getId(), $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
 		} else {
 			echo "ERROR";
 		}
