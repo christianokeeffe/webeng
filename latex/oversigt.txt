@@ -15,3 +15,15 @@ how we reads the xml
 xtls
 
 xQuary
+
+dag 3:
+
+beskrivelse af webservices
+
+beskriv de forskellige muligheder, REST,W* osv
+
+sammenlign dem
+
+beskrivelse af REST
+
+Beskriv implementation
