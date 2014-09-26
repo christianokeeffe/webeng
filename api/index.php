@@ -59,26 +59,27 @@ $f3->route('POST /country/@id',
                                     //$f3->get('total_area'));
         
         foreach($cmodel->listOfCountries as &$c){
-            if ($c->getId() == $params){
+            if ($c->getId() == $f3->get('PARAMS.id')){
                 $tempCountry = $c;
                 break;
             }
         }
-
-        if($f3->get('name') != null){
-            $tempCountry->APIsetName();
-        } else if($f3->get('id') != null){
-            $tempCountry->APIsetID();
-        } else if($f3->get('capital') != null){
-            $tempCountry->APIsetCapital();
-        }
-        else if($f3->get('population') != null){
-            $tempCountry->APIsetPopulation();
+        if ($tempCountry != null){
+            if($f3->get('POST.name') != null){
+                $tempCountry->APIsetName($f3->get('POST.name'));
+            } else if($f3->get('POST.capital') != null){
+                $tempCountry->APIsetCapital($f3->get('POST.capital'));
+            }
+            else if($f3->get('POST.population') != null){
+                $tempCountry->APIsetPopulation($f3->get('POST.population'));
+            } else {
+            echo "ERROR";
+            }
         } else {
-            return "ERROR";
+            echo "ERROR";
         }
         //$this->$tempCountry->APIset($f3->get('name'),$f3->get('id'),$f3->get('capital'),$f3->get('population'));
-        $cmodel->setData($params,$tempCountry);
+        $cmodel->setData($tempCountry);
     }
 );
 
