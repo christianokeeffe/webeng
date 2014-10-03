@@ -13,7 +13,24 @@ A goal for our application is to provide a geographical database for the users, 
 
 \end{itemize}
 
-With the goal in place, we now look at the value exchanges in the between the users and our application. One value exchange could be between the normal users where we provide relevant information to their search together with some advertisements which the users will see together with the information. The income will be through a value exchange point between our application and the advertisement company, where we provide them with views while they provide us payment for the views.
+With the goal in place, we now look at the value exchanges in the between the users and our application. One value exchange could be between the normal users where we provide relevant information to their search together with some advertisements which the users will see together with the information. The income will be through a value exchange point between our application and the advertisement company, where we provide them with views while they provide us payment for the views. We will give an example of how the value exchange between the normal user and the application could be analyzed:
+ 
+ \begin{itemize}
+
+\item \textbf{Actors:} The user creates the business value through visiting our service and view the advertisement.
+\item \textbf{Value Object:} The value object sent from our application to the user is information with the geographical data, where the value object from the users is viewing the advertisement.
+\item \textbf{Value Port:} The port is our web application.
+\item \textbf{Value Interface:} If the view it in a larger scale, it could be between our application and the advertisement site.
+\item \textbf{Value Exchange:} We exchange information for page views.
+\item \textbf{Market Segments:} We have the users, administrators and the advertisement firm.
+\item \textbf{Value Activity:} When the users enter the site.
+\item \textbf{Dependency Path:} The connection between the user and our application, through the value port. 
+\end{itemize}
 
 There would also be a value exchange between the our application and the geographical data administrates where we provide them with the database and service to update it while they provide us with updated information.
 
+The workflow of our application is, e.g. the case when a user view the list of countries. The task for user user is to enter the site and chose the condition for the view (e.g. sort alphabetically). The site should the activate the procedure to call the database and receive the relevant information, as well as calling the advertising firm to get the advertisements. This could also be described by using Petri Nets or similar models.
+
+The information flow is quite similar to the value exchange, as the information flows from the administrators, through our database and to our users through our site.
+
+These different analysis methods for the requirements, each provide valuable information - in some areas they provide the same information, in other unique information about the requirements. As an example, the actors a described in several of the methods. In regard to our application, the value exchange method was especially suitable, as it provided a lot of information about the different aspects about what the web application should handle and provide.
