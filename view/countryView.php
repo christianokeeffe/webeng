@@ -11,15 +11,20 @@ class countryView
     
     public function output() {
 		?>
-    	<table class="table table-striped table-bordered">
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Capital ID</th>
-				<th>Population</th>
-				<th>Action</th>
-		</thead>
-		<tbody>
+        <div class="row">
+            <div class="col-md-2">
+                
+            </div>
+            <div class="col-md-10">
+    	       <table class="table table-striped table-bordered">
+    	           <thead>
+    			        <tr>
+    			        <th>Name</th>
+                        <th>Capital ID</th>
+    				    <th>Population</th>
+    				    <th>Action</th>
+    	   </thead>
+    	   <tbody>
 		<?
     	foreach ($this->countryModel->listOfCountries as $country) {
     		?>
@@ -31,7 +36,12 @@ class countryView
 				</tr>
     		<?
     	}
-    	echo "</tbody></table>";
+    	?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <?
     }
 }
 ?>
