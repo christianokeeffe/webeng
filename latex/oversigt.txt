@@ -27,3 +27,17 @@ sammenlign dem
 beskrivelse af REST
 
 Beskriv implementation
+
+dag 5:
+
+Dag nummer 4 som en tåge, kan ikke huske noget. jeg føler som livet er blevet drænet ud af og der ligger en masse underlige filer i mit repository.
+
+kort intro - 
+different design technique also comparison
+difference design
+
+WHAT WE HAVE DONE: - navigation / presentation
+design
+implementation
+
+noget plidder pladder (reflect)
