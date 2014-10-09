@@ -216,9 +216,10 @@ class ImportController
 	    			break;
 	    		}
     		}
+    		$this->model->insertToDb("country",$this->extrated_countries);
+    		$this->model->insertToDb("continent",$this->extrated_continents);
+    		$this->model->insertToDb("city",$this->extrated_cities);
     	}
-    	$this->model->insertToDb("country",$this->extrated_countries);
-    	$this->model->insertToDb("continent",$this->extrated_continents);
-    	$this->model->insertToDb("city",$this->extrated_cities);
+    	
     }
 }
