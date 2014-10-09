@@ -38,7 +38,8 @@
     <h3 class="panel-title">Panel title</h3>
   </div>
   <div class="panel-body">
-    Panel content
+    <a href=#>ADD</a>
+    more panel content
   </div>
 </div>
 </div>
