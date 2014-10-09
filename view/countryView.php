@@ -11,9 +11,10 @@ class countryView
     
     public function output() {
 		?>
+        <div class="container">
         <div class="row">
             <div class="col-md-2">
-                
+            
             </div>
             <div class="col-md-10">
     	       <table class="table table-striped table-bordered">
@@ -40,6 +41,7 @@ class countryView
                     </tbody>
                 </table>
             </div>
+        </div>
         </div>
         <?
     }
