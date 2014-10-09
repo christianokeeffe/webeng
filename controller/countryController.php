@@ -11,8 +11,9 @@ class CountryController
         	if($_GET['action'] == "editDone")
         	{
         		$oldCountry = $this->getCountryByID($_POST['countryID']);
-        		$country = new Country($_POST['countryID'], $_POST['name'], $_POST['capital'], $_POST['population']);
-        		$this->model->setData($oldCountry,$country);
+        		$country = new Country($_POST['capital'], $oldCountry->getCarcode, $oldCountry
+                ->getDatacode(), $oldCountry->getGdp_agri(), $oldCountry->getGdp_ind(), $oldCountry->getGdp_serv(), $oldCountry->getGdp_total(), $oldCountry->getGoverment(), $_POST['countryID'], $oldCountry->getIndep_date(), $oldCountry->getInfant_mortality(), $oldCountry->getInflation(), $_POST['name'], $_POST['population'], $oldCountry->getPopulation_growth(), $oldCountry->getTotal_area());
+        		$this->model->setData($country);
         		$this->isDone = true;
         	}
         }
