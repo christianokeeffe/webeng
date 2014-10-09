@@ -2,7 +2,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 </head>
-<body>
+<body style=" padding-top: 70px;">
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <?php
@@ -17,6 +17,8 @@ include("controller/importController.php");
 include("view/countryView.php");
 include("view/importView.php");
 include("view/editCountryView.php");
+include ("view/indexview.php");
+
 $model;
 $controller;
 $view;
@@ -30,26 +32,29 @@ if(isset($_GET['page']))
 
 switch ($page) {
 	case 'countryList':
+		$reg = "active";
 		$model = new CountryModel();
 		$controller = new CountryController($model);
 		$view = new countryView($controller, $model);
 		break;
 	case 'countryEdit':
+		$reg = "active";
 		$model = new CountryModel();
 		$controller = new CountryController($model);
 		$view = new editCountryView($controller, $model);
 		break;
 	case 'import':
+		$imp = "active";
 		$model = new ImportModel();
 		$controller = new ImportController($model);
 		$view = new importView($controller, $model);
 		break;
 	default:
-		$model = new CountryModel();
-		$controller = new CountryController($model);
-		$view = new countryView($controller, $model);
+		$front = "active";
+		$view = new indexView();		
 		break;
 }
+include("view/topbar.php");
  $view->output();
 ?>
 </body>
