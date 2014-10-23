@@ -14,10 +14,12 @@ include("model/CountryModel.php");
 include("model/ImportModel.php");
 include("controller/countryController.php");
 include("controller/importController.php");
+include("controller/rdfGenerateController.php");
 include("view/countryView.php");
 include("view/importView.php");
 include("view/editCountryView.php");
 include ("view/indexview.php");
+include ("view/rdfGenerateView.php");
 
 $model;
 $controller;
@@ -42,6 +44,12 @@ switch ($page) {
 		$model = new CountryModel();
 		$controller = new CountryController($model);
 		$view = new editCountryView($controller, $model);
+		break;
+	case 'rdfGenerate':
+		$rdfgen = "active";
+		$model = new CountryModel();
+		$controller = new rdfGenerateController($model);
+		$view = new rdfGenerateView($controller, $model);
 		break;
 	case 'import':
 		$imp = "active";

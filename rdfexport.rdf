@@ -1,0 +1,1390 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cont="http://localhost/webeng/MVC.php?page=country">
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_136">
+<cont:name>Albania</cont:name>
+<cont:capital>f0_1461</cont:capital>
+<cont:population>3249136</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_144">
+<cont:name>Andorra</cont:name>
+<cont:capital>f0_1464</cont:capital>
+<cont:population>72766</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_149">
+<cont:name>Austria</cont:name>
+<cont:capital>f0_1467</cont:capital>
+<cont:population>8023244</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_157">
+<cont:name>Belarus</cont:name>
+<cont:capital>f0_1474</cont:capital>
+<cont:population>10415973</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_162">
+<cont:name>Belgium</cont:name>
+<cont:capital>f0_1477</cont:capital>
+<cont:population>10170241</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_169">
+<cont:name>Bosnia and Herzegovina</cont:name>
+<cont:capital>f0_1484</cont:capital>
+<cont:population>2656240</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_174">
+<cont:name>Bulgaria</cont:name>
+<cont:capital>f0_1487</cont:capital>
+<cont:population>8612757</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_179">
+<cont:name>Croatia</cont:name>
+<cont:capital>f0_1490</cont:capital>
+<cont:population>5004112</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_184">
+<cont:name>Czech Republic</cont:name>
+<cont:capital>f0_1493</cont:capital>
+<cont:population>10321120</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_193">
+<cont:name>Denmark</cont:name>
+<cont:capital>f0_1498</cont:capital>
+<cont:population>5249632</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_198">
+<cont:name>Estonia</cont:name>
+<cont:capital>f0_1501</cont:capital>
+<cont:population>1459428</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_203">
+<cont:name>Faroe Islands</cont:name>
+<cont:capital>f0_1504</cont:capital>
+<cont:population>43857</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_208">
+<cont:name>Finland</cont:name>
+<cont:capital>f0_1507</cont:capital>
+<cont:population>5105230</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_213">
+<cont:name>France</cont:name>
+<cont:capital>f0_1510</cont:capital>
+<cont:population>58317448</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_220">
+<cont:name>Germany</cont:name>
+<cont:capital>f0_1515</cont:capital>
+<cont:population>83536112</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_227">
+<cont:name>Gibraltar</cont:name>
+<cont:capital>f0_1520</cont:capital>
+<cont:population>28765</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_232">
+<cont:name>Greece</cont:name>
+<cont:capital>f0_1522</cont:capital>
+<cont:population>10538594</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_239">
+<cont:name>Guernsey</cont:name>
+<cont:capital>f0_1528</cont:capital>
+<cont:population>62920</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_244">
+<cont:name>Holy See</cont:name>
+<cont:capital>f0_1531</cont:capital>
+<cont:population>840</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_251">
+<cont:name>Hungary</cont:name>
+<cont:capital>f0_1533</cont:capital>
+<cont:population>10002541</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_258">
+<cont:name>Iceland</cont:name>
+<cont:capital>f0_1538</cont:capital>
+<cont:population>270292</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_263">
+<cont:name>Ireland</cont:name>
+<cont:capital>f0_1541</cont:capital>
+<cont:population>3566833</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_268">
+<cont:name>Italy</cont:name>
+<cont:capital>f0_1544</cont:capital>
+<cont:population>57460272</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_275">
+<cont:name>Jersey</cont:name>
+<cont:capital>f0_1551</cont:capital>
+<cont:population>87848</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_280">
+<cont:name>Latvia</cont:name>
+<cont:capital>f0_1554</cont:capital>
+<cont:population>2468982</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_285">
+<cont:name>Liechtenstein</cont:name>
+<cont:capital>f0_1557</cont:capital>
+<cont:population>31122</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_290">
+<cont:name>Lithuania</cont:name>
+<cont:capital>f0_1560</cont:capital>
+<cont:population>3646041</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_295">
+<cont:name>Luxembourg</cont:name>
+<cont:capital>f0_1563</cont:capital>
+<cont:population>415870</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_300">
+<cont:name>Macedonia</cont:name>
+<cont:capital>f0_1565</cont:capital>
+<cont:population>2104035</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_305">
+<cont:name>Malta</cont:name>
+<cont:capital>f0_1568</cont:capital>
+<cont:population>375576</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_310">
+<cont:name>Man</cont:name>
+<cont:capital>f0_1571</cont:capital>
+<cont:population>73837</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_315">
+<cont:name>Moldova</cont:name>
+<cont:capital>f0_1574</cont:capital>
+<cont:population>4463847</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_320">
+<cont:name>Monaco</cont:name>
+<cont:capital>f0_1577</cont:capital>
+<cont:population>31719</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_325">
+<cont:name>Netherlands</cont:name>
+<cont:capital>f0_1579</cont:capital>
+<cont:population>15568034</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_332">
+<cont:name>Norway</cont:name>
+<cont:capital>f0_1583</cont:capital>
+<cont:population>4383807</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_337">
+<cont:name>Poland</cont:name>
+<cont:capital>f0_1586</cont:capital>
+<cont:population>38642564</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_344">
+<cont:name>Portugal</cont:name>
+<cont:capital>f0_1589</cont:capital>
+<cont:population>9865114</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_351">
+<cont:name>Romania</cont:name>
+<cont:capital>f0_1595</cont:capital>
+<cont:population>21657162</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_358">
+<cont:name>Russia</cont:name>
+<cont:capital>f0_1598</cont:capital>
+<cont:population>148178480</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_365">
+<cont:name>San Marino</cont:name>
+<cont:capital>f0_1603</cont:capital>
+<cont:population>24521</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_370">
+<cont:name>Serbia and Montenegro</cont:name>
+<cont:capital>f0_1605</cont:capital>
+<cont:population>10614558</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_375">
+<cont:name>Slovakia</cont:name>
+<cont:capital>f0_1608</cont:capital>
+<cont:population>5374362</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_380">
+<cont:name>Slovenia</cont:name>
+<cont:capital>f0_1611</cont:capital>
+<cont:population>1951443</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_385">
+<cont:name>Spain</cont:name>
+<cont:capital>f0_1614</cont:capital>
+<cont:population>39181112</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_392">
+<cont:name>Svalbard</cont:name>
+<cont:capital>f0_1619</cont:capital>
+<cont:population>2715</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_397">
+<cont:name>Sweden</cont:name>
+<cont:capital>f0_1622</cont:capital>
+<cont:population>8900954</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_404">
+<cont:name>Switzerland</cont:name>
+<cont:capital>f0_1627</cont:capital>
+<cont:population>7207060</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_411">
+<cont:name>Ukraine</cont:name>
+<cont:capital>f0_1632</cont:capital>
+<cont:population>50864008</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_418">
+<cont:name>United Kingdom</cont:name>
+<cont:capital>f0_1639</cont:capital>
+<cont:population>58489976</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_425">
+<cont:name>Afghanistan</cont:name>
+<cont:capital>f0_1644</cont:capital>
+<cont:population>22664136</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_430">
+<cont:name>Armenia</cont:name>
+<cont:capital>f0_1647</cont:capital>
+<cont:population>3463574</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_435">
+<cont:name>Azerbaijan</cont:name>
+<cont:capital>f0_1650</cont:capital>
+<cont:population>7676953</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_440">
+<cont:name>Bahrain</cont:name>
+<cont:capital>f0_1653</cont:capital>
+<cont:population>590042</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_445">
+<cont:name>Bangladesh</cont:name>
+<cont:capital>f0_1656</cont:capital>
+<cont:population>123062800</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_451">
+<cont:name>Bhutan</cont:name>
+<cont:capital>f0_1660</cont:capital>
+<cont:population>1822625</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_456">
+<cont:name>Brunei</cont:name>
+<cont:capital>f0_1663</cont:capital>
+<cont:population>299939</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_461">
+<cont:name>Burma</cont:name>
+<cont:capital>f0_1666</cont:capital>
+<cont:population>45975624</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_470">
+<cont:name>Cambodia</cont:name>
+<cont:capital>f0_1673</cont:capital>
+<cont:population>10861218</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_475">
+<cont:name>China</cont:name>
+<cont:capital>f0_1676</cont:capital>
+<cont:population>1210004992</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_482">
+<cont:name>Cyprus</cont:name>
+<cont:capital>f0_1681</cont:capital>
+<cont:population>744609</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_487">
+<cont:name>Georgia</cont:name>
+<cont:capital>f0_1684</cont:capital>
+<cont:population>5219810</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_492">
+<cont:name>India</cont:name>
+<cont:capital>f0_1687</cont:capital>
+<cont:population>952107712</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_499">
+<cont:name>Indonesia</cont:name>
+<cont:capital>f0_1690</cont:capital>
+<cont:population>206611600</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_505">
+<cont:name>Iran</cont:name>
+<cont:capital>f0_1694</cont:capital>
+<cont:population>66094264</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_512">
+<cont:name>Iraq</cont:name>
+<cont:capital>f0_1699</cont:capital>
+<cont:population>21422292</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_519">
+<cont:name>Israel</cont:name>
+<cont:capital>f0_1704</cont:capital>
+<cont:population>5421995</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_526">
+<cont:name>Japan</cont:name>
+<cont:capital>f0_1707</cont:capital>
+<cont:population>125449704</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_533">
+<cont:name>Jordan</cont:name>
+<cont:capital>f0_1712</cont:capital>
+<cont:population>4212152</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_538">
+<cont:name>Kazakstan</cont:name>
+<cont:capital>f0_1715</cont:capital>
+<cont:population>16916464</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_545">
+<cont:name>North Korea</cont:name>
+<cont:capital>f0_1722</cont:capital>
+<cont:population>23904124</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_553">
+<cont:name>South Korea</cont:name>
+<cont:capital>f0_1726</cont:capital>
+<cont:population>45482292</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_560">
+<cont:name>Kuwait</cont:name>
+<cont:capital>f0_1730</cont:capital>
+<cont:population>1950047</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_565">
+<cont:name>Kyrgyzstan</cont:name>
+<cont:capital>f0_1732</cont:capital>
+<cont:population>4529648</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_570">
+<cont:name>Laos</cont:name>
+<cont:capital>f0_1735</cont:capital>
+<cont:population>4975772</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_575">
+<cont:name>Lebanon</cont:name>
+<cont:capital>f0_1738</cont:capital>
+<cont:population>3776317</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_580">
+<cont:name>Macau</cont:name>
+<cont:capital>f0_1741</cont:capital>
+<cont:population>496837</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_585">
+<cont:name>Malaysia</cont:name>
+<cont:capital>f0_1743</cont:capital>
+<cont:population>19962892</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_592">
+<cont:name>Mongolia</cont:name>
+<cont:capital>f0_1748</cont:capital>
+<cont:population>2496617</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_597">
+<cont:name>Nepal</cont:name>
+<cont:capital>f0_1751</cont:capital>
+<cont:population>22094032</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_602">
+<cont:name>Oman</cont:name>
+<cont:capital>f0_1754</cont:capital>
+<cont:population>2186548</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_607">
+<cont:name>Pakistan</cont:name>
+<cont:capital>f0_1757</cont:capital>
+<cont:population>129275664</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_613">
+<cont:name>Papua New Guinea</cont:name>
+<cont:capital>f0_1761</cont:capital>
+<cont:population>4394537</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_618">
+<cont:name>Philippines</cont:name>
+<cont:capital>f0_1764</cont:capital>
+<cont:population>74480848</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_624">
+<cont:name>Qatar</cont:name>
+<cont:capital>f0_1768</cont:capital>
+<cont:population>547761</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_629">
+<cont:name>Saudi Arabia</cont:name>
+<cont:capital>f0_1771</cont:capital>
+<cont:population>19409058</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_634">
+<cont:name>Singapore</cont:name>
+<cont:capital>f0_1774</cont:capital>
+<cont:population>3396924</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_639">
+<cont:name>Sri Lanka</cont:name>
+<cont:capital>f0_1776</cont:capital>
+<cont:population>18553074</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_644">
+<cont:name>Syria</cont:name>
+<cont:capital>f0_1779</cont:capital>
+<cont:population>15608648</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_649">
+<cont:name>Taiwan</cont:name>
+<cont:capital>f0_1782</cont:capital>
+<cont:population>21465880</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_656">
+<cont:name>Tajikistan</cont:name>
+<cont:capital>f0_1787</cont:capital>
+<cont:population>5916373</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_663">
+<cont:name>Thailand</cont:name>
+<cont:capital>f0_1792</cont:capital>
+<cont:population>58851356</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_670">
+<cont:name>Turkey</cont:name>
+<cont:capital>f0_1797</cont:capital>
+<cont:population>62484480</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_677">
+<cont:name>Turkmenistan</cont:name>
+<cont:capital>f0_1802</cont:capital>
+<cont:population>4149283</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_684">
+<cont:name>United Arab Emirates</cont:name>
+<cont:capital>f0_1807</cont:capital>
+<cont:population>3057337</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_693">
+<cont:name>Uzbekistan</cont:name>
+<cont:capital>f0_1811</cont:capital>
+<cont:population>23418380</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_700">
+<cont:name>Vietnam</cont:name>
+<cont:capital>f0_1814</cont:capital>
+<cont:population>73976976</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_707">
+<cont:name>Yemen</cont:name>
+<cont:capital>f0_1818</cont:capital>
+<cont:population>13483178</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_723">
+<cont:name>Anguilla</cont:name>
+<cont:capital>f0_1821</cont:capital>
+<cont:population>10424</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_728">
+<cont:name>Antigua and Barbuda</cont:name>
+<cont:capital>f0_1824</cont:capital>
+<cont:population>65647</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_733">
+<cont:name>Argentina</cont:name>
+<cont:capital>f0_1827</cont:capital>
+<cont:population>34672996</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_740">
+<cont:name>Aruba</cont:name>
+<cont:capital>f0_1832</cont:capital>
+<cont:population>67794</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_745">
+<cont:name>Bahamas</cont:name>
+<cont:capital>f0_1835</cont:capital>
+<cont:population>259367</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_750">
+<cont:name>Barbados</cont:name>
+<cont:capital>f0_1838</cont:capital>
+<cont:population>257030</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_755">
+<cont:name>Belize</cont:name>
+<cont:capital>f0_1841</cont:capital>
+<cont:population>219296</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_760">
+<cont:name>Bolivia</cont:name>
+<cont:capital>f0_1844</cont:capital>
+<cont:population>7165257</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_765">
+<cont:name>Brazil</cont:name>
+<cont:capital>f0_1847</cont:capital>
+<cont:population>162661216</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_772">
+<cont:name>British Virgin Islands</cont:name>
+<cont:capital>f0_1852</cont:capital>
+<cont:population>13195</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_777">
+<cont:name>Canada</cont:name>
+<cont:capital>f0_1855</cont:capital>
+<cont:population>28820672</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_784">
+<cont:name>Cayman Islands</cont:name>
+<cont:capital>f0_1859</cont:capital>
+<cont:population>34646</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_789">
+<cont:name>Chile</cont:name>
+<cont:capital>f0_1862</cont:capital>
+<cont:population>14333258</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_794">
+<cont:name>Colombia</cont:name>
+<cont:capital>f0_1865</cont:capital>
+<cont:population>36813160</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_801">
+<cont:name>Costa Rica</cont:name>
+<cont:capital>f0_1870</cont:capital>
+<cont:population>3463083</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_808">
+<cont:name>Cuba</cont:name>
+<cont:capital>f0_1875</cont:capital>
+<cont:population>10951334</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_815">
+<cont:name>Dominica</cont:name>
+<cont:capital>f0_1882</cont:capital>
+<cont:population>82926</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_820">
+<cont:name>Dominican Republic</cont:name>
+<cont:capital>f0_1885</cont:capital>
+<cont:population>8088881</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_825">
+<cont:name>Ecuador</cont:name>
+<cont:capital>f0_1888</cont:capital>
+<cont:population>11466291</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_830">
+<cont:name>El Salvador</cont:name>
+<cont:capital>f0_1891</cont:capital>
+<cont:population>5828987</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_837">
+<cont:name>French Guiana</cont:name>
+<cont:capital>f0_1896</cont:capital>
+<cont:population>151187</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_842">
+<cont:name>Grenada</cont:name>
+<cont:capital>f0_1899</cont:capital>
+<cont:population>94961</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_847">
+<cont:name>Guadeloupe</cont:name>
+<cont:capital>f0_1902</cont:capital>
+<cont:population>407768</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_852">
+<cont:name>Guatemala</cont:name>
+<cont:capital>f0_1905</cont:capital>
+<cont:population>11277614</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_858">
+<cont:name>Guyana</cont:name>
+<cont:capital>f0_1907</cont:capital>
+<cont:population>712091</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_863">
+<cont:name>Haiti</cont:name>
+<cont:capital>f0_1910</cont:capital>
+<cont:population>6731539</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_868">
+<cont:name>Honduras</cont:name>
+<cont:capital>f0_1913</cont:capital>
+<cont:population>5605193</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_875">
+<cont:name>Jamaica</cont:name>
+<cont:capital>f0_1918</cont:capital>
+<cont:population>2595275</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_880">
+<cont:name>Martinique</cont:name>
+<cont:capital>f0_1921</cont:capital>
+<cont:population>399151</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_885">
+<cont:name>Mexico</cont:name>
+<cont:capital>f0_1924</cont:capital>
+<cont:population>95772464</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_892">
+<cont:name>Montserrat</cont:name>
+<cont:capital>f0_1926</cont:capital>
+<cont:population>12771</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_897">
+<cont:name>Netherlands Antilles</cont:name>
+<cont:capital>f0_1929</cont:capital>
+<cont:population>208968</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_902">
+<cont:name>Nicaragua</cont:name>
+<cont:capital>f0_1932</cont:capital>
+<cont:population>4272352</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_908">
+<cont:name>Panama</cont:name>
+<cont:capital>f0_1936</cont:capital>
+<cont:population>2655094</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_915">
+<cont:name>Paraguay</cont:name>
+<cont:capital>f0_1938</cont:capital>
+<cont:population>5504146</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_920">
+<cont:name>Peru</cont:name>
+<cont:capital>f0_1941</cont:capital>
+<cont:population>24523408</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_927">
+<cont:name>Puerto Rico</cont:name>
+<cont:capital>f0_1946</cont:capital>
+<cont:population>3819023</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_932">
+<cont:name>Saint Kitts and Nevis</cont:name>
+<cont:capital>f0_1949</cont:capital>
+<cont:population>41369</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_937">
+<cont:name>Saint Lucia</cont:name>
+<cont:capital>f0_1952</cont:capital>
+<cont:population>157862</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_942">
+<cont:name>Saint Pierre and Miquelon</cont:name>
+<cont:capital>f0_1955</cont:capital>
+<cont:population>6809</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_947">
+<cont:name>Saint Vincent and the Grenadines</cont:name>
+<cont:capital>f0_1958</cont:capital>
+<cont:population>118344</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_952">
+<cont:name>Suriname</cont:name>
+<cont:capital>f0_1961</cont:capital>
+<cont:population>436418</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_957">
+<cont:name>Trinidad and Tobago</cont:name>
+<cont:capital>f0_1964</cont:capital>
+<cont:population>1272385</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_962">
+<cont:name>Turks and Caicos Islands</cont:name>
+<cont:capital>f0_1967</cont:capital>
+<cont:population>14302</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_967">
+<cont:name>United States</cont:name>
+<cont:capital>f0_1970</cont:capital>
+<cont:population>266476272</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_978">
+<cont:name>Uruguay</cont:name>
+<cont:capital>f0_1976</cont:capital>
+<cont:population>3238952</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_983">
+<cont:name>Venezuela</cont:name>
+<cont:capital>f0_1979</cont:capital>
+<cont:population>21983188</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_990">
+<cont:name>Virgin Islands</cont:name>
+<cont:capital>f0_1984</cont:capital>
+<cont:population>97120</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_995">
+<cont:name>American Samoa</cont:name>
+<cont:capital>f0_1987</cont:capital>
+<cont:population>59566</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1000">
+<cont:name>Australia</cont:name>
+<cont:capital>f0_1990</cont:capital>
+<cont:population>18260864</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1007">
+<cont:name>Bermuda</cont:name>
+<cont:capital>f0_1995</cont:capital>
+<cont:population>62099</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1012">
+<cont:name>Christmas Island</cont:name>
+<cont:capital>f0_1998</cont:capital>
+<cont:population>813</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1017">
+<cont:name>Cocos Islands</cont:name>
+<cont:capital>f0_2001</cont:capital>
+<cont:population>609</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1022">
+<cont:name>Cook Islands</cont:name>
+<cont:capital>f0_2004</cont:capital>
+<cont:population>19561</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1027">
+<cont:name>Falkland Islands</cont:name>
+<cont:capital>f0_2007</cont:capital>
+<cont:population>2374</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1032">
+<cont:name>Fiji</cont:name>
+<cont:capital>f0_2010</cont:capital>
+<cont:population>782381</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1037">
+<cont:name>French Polynesia</cont:name>
+<cont:capital>f0_2013</cont:capital>
+<cont:population>224911</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1042">
+<cont:name>Greenland</cont:name>
+<cont:capital>f0_2016</cont:capital>
+<cont:population>58203</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1047">
+<cont:name>Guam</cont:name>
+<cont:capital>f0_2019</cont:capital>
+<cont:population>156974</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1052">
+<cont:name>Kiribati</cont:name>
+<cont:capital>f0_2022</cont:capital>
+<cont:population>80919</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1057">
+<cont:name>Maldives</cont:name>
+<cont:capital>f0_2025</cont:capital>
+<cont:population>270758</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1062">
+<cont:name>Marshall Islands</cont:name>
+<cont:capital>f0_2028</cont:capital>
+<cont:population>58363</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1067">
+<cont:name>Mauritius</cont:name>
+<cont:capital>f0_2031</cont:capital>
+<cont:population>1140256</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1072">
+<cont:name>Micronesia</cont:name>
+<cont:capital>f0_2034</cont:capital>
+<cont:population>125377</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1077">
+<cont:name>Nauru</cont:name>
+<cont:capital>f0_2037</cont:capital>
+<cont:population>10273</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1082">
+<cont:name>New Caledonia</cont:name>
+<cont:capital>f0_2040</cont:capital>
+<cont:population>187784</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1087">
+<cont:name>New Zealand</cont:name>
+<cont:capital>f0_2043</cont:capital>
+<cont:population>3547983</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1092">
+<cont:name>Niue</cont:name>
+<cont:capital>f0_2046</cont:capital>
+<cont:population>2174</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1097">
+<cont:name>Norfolk Island</cont:name>
+<cont:capital>f0_2049</cont:capital>
+<cont:population>2209</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1102">
+<cont:name>Northern Mariana Islands</cont:name>
+<cont:capital>f0_2051</cont:capital>
+<cont:population>52284</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1107">
+<cont:name>Palau</cont:name>
+<cont:capital>f0_2054</cont:capital>
+<cont:population>16952</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1112">
+<cont:name>Pitcairn Islands</cont:name>
+<cont:capital>f0_2057</cont:capital>
+<cont:population>56</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1117">
+<cont:name>Reunion</cont:name>
+<cont:capital>f0_2060</cont:capital>
+<cont:population>679198</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1122">
+<cont:name>Saint Helena</cont:name>
+<cont:capital>f0_2063</cont:capital>
+<cont:population>6782</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1127">
+<cont:name>Seychelles</cont:name>
+<cont:capital>f0_2066</cont:capital>
+<cont:population>77575</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1132">
+<cont:name>Solomon Islands</cont:name>
+<cont:capital>f0_2069</cont:capital>
+<cont:population>412902</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1141">
+<cont:name>Tonga</cont:name>
+<cont:capital>f0_2072</cont:capital>
+<cont:population>106466</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1146">
+<cont:name>Tuvalu</cont:name>
+<cont:capital>f0_2075</cont:capital>
+<cont:population>10146</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1151">
+<cont:name>Vanuatu</cont:name>
+<cont:capital>f0_2078</cont:capital>
+<cont:population>177504</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1156">
+<cont:name>Wallis and Futuna</cont:name>
+<cont:capital>f0_2081</cont:capital>
+<cont:population>14659</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1161">
+<cont:name>Western Samoa</cont:name>
+<cont:capital>f0_2084</cont:capital>
+<cont:population>214384</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1166">
+<cont:name>Algeria</cont:name>
+<cont:capital>f0_2087</cont:capital>
+<cont:population>29183032</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1172">
+<cont:name>Angola</cont:name>
+<cont:capital>f0_2091</cont:capital>
+<cont:population>10342899</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1179">
+<cont:name>Benin</cont:name>
+<cont:capital>f0_2095</cont:capital>
+<cont:population>5709529</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1184">
+<cont:name>Botswana</cont:name>
+<cont:capital>f0_2098</cont:capital>
+<cont:population>1477630</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1189">
+<cont:name>Burkina Faso</cont:name>
+<cont:capital>f0_2101</cont:capital>
+<cont:population>10623323</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1194">
+<cont:name>Burundi</cont:name>
+<cont:capital>f0_2104</cont:capital>
+<cont:population>5943057</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1199">
+<cont:name>Cameroon</cont:name>
+<cont:capital>f0_2107</cont:capital>
+<cont:population>14261557</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1206">
+<cont:name>Cape Verde</cont:name>
+<cont:capital>f0_2112</cont:capital>
+<cont:population>449066</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1211">
+<cont:name>Central African Republic</cont:name>
+<cont:capital>f0_2115</cont:capital>
+<cont:population>3274426</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1216">
+<cont:name>Chad</cont:name>
+<cont:capital>f0_2118</cont:capital>
+<cont:population>6976845</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1221">
+<cont:name>Comoros</cont:name>
+<cont:capital>f0_2121</cont:capital>
+<cont:population>569237</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1226">
+<cont:name>Congo</cont:name>
+<cont:capital>f0_2124</cont:capital>
+<cont:population>2527841</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1231">
+<cont:name>Cote dIvoire</cont:name>
+<cont:capital>f0_2127</cont:capital>
+<cont:population>14762445</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1236">
+<cont:name>Djibouti</cont:name>
+<cont:capital>f0_2130</cont:capital>
+<cont:population>427642</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1241">
+<cont:name>Egypt</cont:name>
+<cont:capital>f0_2132</cont:capital>
+<cont:population>63575108</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1248">
+<cont:name>Equatorial Guinea</cont:name>
+<cont:capital>f0_2136</cont:capital>
+<cont:population>431282</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1253">
+<cont:name>Eritrea</cont:name>
+<cont:capital>f0_2139</cont:capital>
+<cont:population>3427883</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1258">
+<cont:name>Ethiopia</cont:name>
+<cont:capital>f0_2142</cont:capital>
+<cont:population>57171664</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1264">
+<cont:name>Gabon</cont:name>
+<cont:capital>f0_2145</cont:capital>
+<cont:population>1172798</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1269">
+<cont:name>Ghana</cont:name>
+<cont:capital>f0_2148</cont:capital>
+<cont:population>17698272</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1275">
+<cont:name>Guinea</cont:name>
+<cont:capital>f0_2152</cont:capital>
+<cont:population>7411981</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1280">
+<cont:name>Guinea-Bissau</cont:name>
+<cont:capital>f0_2155</cont:capital>
+<cont:population>1151330</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1285">
+<cont:name>Kenya</cont:name>
+<cont:capital>f0_2158</cont:capital>
+<cont:population>28176686</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1292">
+<cont:name>Lesotho</cont:name>
+<cont:capital>f0_2164</cont:capital>
+<cont:population>1970781</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1297">
+<cont:name>Liberia</cont:name>
+<cont:capital>f0_2167</cont:capital>
+<cont:population>2109789</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1302">
+<cont:name>Libya</cont:name>
+<cont:capital>f0_2170</cont:capital>
+<cont:population>5445436</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1307">
+<cont:name>Madagascar</cont:name>
+<cont:capital>f0_2173</cont:capital>
+<cont:population>13670507</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1314">
+<cont:name>Malawi</cont:name>
+<cont:capital>f0_2178</cont:capital>
+<cont:population>9452844</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1319">
+<cont:name>Mali</cont:name>
+<cont:capital>f0_2181</cont:capital>
+<cont:population>9653261</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1324">
+<cont:name>Mauritania</cont:name>
+<cont:capital>f0_2184</cont:capital>
+<cont:population>2336048</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1329">
+<cont:name>Mayotte</cont:name>
+<cont:capital>f0_2187</cont:capital>
+<cont:population>100838</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1334">
+<cont:name>Morocco</cont:name>
+<cont:capital>f0_2190</cont:capital>
+<cont:population>29779156</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1341">
+<cont:name>Mozambique</cont:name>
+<cont:capital>f0_2194</cont:capital>
+<cont:population>17877928</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1348">
+<cont:name>Namibia</cont:name>
+<cont:capital>f0_2199</cont:capital>
+<cont:population>1677243</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1353">
+<cont:name>Niger</cont:name>
+<cont:capital>f0_2202</cont:capital>
+<cont:population>9113001</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1358">
+<cont:name>Nigeria</cont:name>
+<cont:capital>f0_2205</cont:capital>
+<cont:population>103912488</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1364">
+<cont:name>Rwanda</cont:name>
+<cont:capital>f0_2208</cont:capital>
+<cont:population>6853359</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1369">
+<cont:name>Sao Tome and Principe</cont:name>
+<cont:capital>f0_2211</cont:capital>
+<cont:population>144128</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1374">
+<cont:name>Senegal</cont:name>
+<cont:capital>f0_2214</cont:capital>
+<cont:population>9092749</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1381">
+<cont:name>Sierra Leone</cont:name>
+<cont:capital>f0_2219</cont:capital>
+<cont:population>4793121</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1386">
+<cont:name>Somalia</cont:name>
+<cont:capital>f0_2222</cont:capital>
+<cont:population>9639151</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1391">
+<cont:name>South Africa</cont:name>
+<cont:capital>f0_2225</cont:capital>
+<cont:population>41743460</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1398">
+<cont:name>Sudan</cont:name>
+<cont:capital>f0_2229</cont:capital>
+<cont:population>31547544</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1405">
+<cont:name>Swaziland</cont:name>
+<cont:capital>f0_2234</cont:capital>
+<cont:population>998730</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1410">
+<cont:name>Tanzania</cont:name>
+<cont:capital>f0_2237</cont:capital>
+<cont:population>29058470</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1417">
+<cont:name>Gambia</cont:name>
+<cont:capital>f0_2242</cont:capital>
+<cont:population>1204984</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1422">
+<cont:name>Togo</cont:name>
+<cont:capital>f0_2245</cont:capital>
+<cont:population>4570530</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1427">
+<cont:name>Tunisia</cont:name>
+<cont:capital>f0_2248</cont:capital>
+<cont:population>9019687</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1432">
+<cont:name>Uganda</cont:name>
+<cont:capital>f0_2251</cont:capital>
+<cont:population>20158176</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1437">
+<cont:name>Western Sahara</cont:name>
+<cont:capital>f0_35103</cont:capital>
+<cont:population>222631</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1441">
+<cont:name>Zaire</cont:name>
+<cont:capital>f0_2254</cont:capital>
+<cont:population>46498540</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1448">
+<cont:name>Zambia</cont:name>
+<cont:capital>f0_2259</cont:capital>
+<cont:population>9159072</cont:population>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_1455">
+<cont:name>Zimbabwe</cont:name>
+<cont:capital>f0_2264</cont:capital>
+<cont:population>11271314</cont:population>
+</rdf:Description>
+
+</rdf:RDF>

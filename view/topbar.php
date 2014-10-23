@@ -25,6 +25,7 @@
           </ul>
         </li>
         <li class="<?echo $imp?>"><a href="?page=import" >Import data</a></li>
+        <li class="<?echo $rdfGen?>"><a href="?page=rdfGenerate" >Export to RDF</a></li>
         <li><a href="?page=index" class="<?echo $about?>">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
