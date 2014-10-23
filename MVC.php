@@ -7,6 +7,7 @@
 <script src="js/bootstrap.min.js"></script>
 <?php
 include("SQLConnect.php");
+include("EasyRdf.php");
 include("model/metadata/CityMetaData.php");
 include("model/metadata/CountryMetaData.php");
 include("model/metadata/ContinentMetaData.php");
@@ -17,7 +18,8 @@ include("controller/importController.php");
 include("view/countryView.php");
 include("view/importView.php");
 include("view/editCountryView.php");
-include ("view/indexview.php");
+include("view/indexview.php");
+include("view/displayRdfView.php");
 
 $model;
 $controller;
