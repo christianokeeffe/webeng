@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-xmlns:cont="http://localhost/webeng/MVC.php?page=country">
+xmlns:cont="http://localhost/webeng/MVC.php?page=country#">
 <rdf:Description rdf:about="http://localhost/webeng/MVC.php?page=country&amp;id=f0_136">
 <cont:name>Albania</cont:name>
 <cont:capital>f0_1461</cont:capital>

@@ -13,9 +13,11 @@ include("model/metadata/CountryMetaData.php");
 include("model/metadata/ContinentMetaData.php");
 include("model/CountryModel.php");
 include("model/ImportModel.php");
+include("model/displayRdfModel.php");
 include("controller/countryController.php");
 include("controller/importController.php");
 include("controller/rdfGenerateController.php");
+include("controller/displayRdfController.php");
 include("view/countryView.php");
 include("view/importView.php");
 include("view/editCountryView.php");
@@ -53,6 +55,12 @@ switch ($page) {
 		$controller = new rdfGenerateController($model);
 		$view = new rdfGenerateView($controller, $model);
 		break;
+	case 'viewRDF':
+		$rdfview = "active";
+		$model = new displayRdfModel("rdfexport.rdf");
+		$controller = new displayRdfController($model);
+		$view = new displayRdfView($controller);
+		break;
 	case 'import':
 		$imp = "active";
 		$model = new ImportModel();
@@ -64,6 +72,7 @@ switch ($page) {
 		$view = new indexView();		
 		break;
 }
+
 include("view/topbar.php");
  $view->output();
 ?>

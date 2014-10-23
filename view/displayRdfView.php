@@ -1,20 +1,12 @@
 <?php
 class displayRdfView{
-    
-    public function __construct($path) {
+    private $controller;
 
-        $foaf = new EasyRdf_Graph($path);
-        $foaf->load();
-
-        $dump = $foaf->dump('graph');
-
-        print preg_replace_callback("/ href='([^#][^']*)'/", 'makeLinkLocal', $dump);
+    public function __construct($controller) {
+        $this->controller = $controller;
     }
-
-    function makeLinkLocal($matches)
-    {
-        $href = $matches[1];
-        return " href='?uri=".urlencode($href)."#$href'";
+    function output() {
+        echo $this->controller->getDump();
     }
 }
 ?>
