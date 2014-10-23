@@ -3,10 +3,10 @@ class displayRdfView{
     
     public function __construct($path) {
 
-        private $foaf = new EasyRdf_Graph($path);
+        $foaf = new EasyRdf_Graph($path);
         $foaf->load();
 
-        private $dump = $foaf->dump('graph');
+        $dump = $foaf->dump('graph');
 
         print preg_replace_callback("/ href='([^#][^']*)'/", 'makeLinkLocal', $dump);
     }

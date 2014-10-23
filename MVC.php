@@ -19,13 +19,9 @@ include("controller/rdfGenerateController.php");
 include("view/countryView.php");
 include("view/importView.php");
 include("view/editCountryView.php");
-<<<<<<< HEAD
 include("view/indexview.php");
 include("view/displayRdfView.php");
-=======
-include ("view/indexview.php");
 include ("view/rdfGenerateView.php");
->>>>>>> origin/master
 
 $model;
 $controller;
