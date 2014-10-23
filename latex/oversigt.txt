@@ -41,3 +41,13 @@ design -aleksander
 implementation -aleksander
 
 noget plidder pladder (reflect) -aleksander
+
+dag 6:
+
+Idag har vi støt på noget gruvækkende. Det er udvidet XML, shit is crazy. Wot do m8 ?
+
+disc(også noget om hvordan vi har brugt det) og teo - til begge
+
+skriv noget om rdf/rdfs - Christian
+
+skriv noget andet om sparql - alleeeeeeeeeeekkkkkkkkkkkkkssssssaaaaaaaaaaaaannnnnnnnnnnnnndddddddddddddddeeeerrrrrrrrrrrrrrrrrrrr
