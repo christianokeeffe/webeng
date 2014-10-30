@@ -51,3 +51,16 @@ disc(også noget om hvordan vi har brugt det) og teo - til begge
 skriv noget om rdf/rdfs - Christian
 
 skriv noget andet om sparql - alleeeeeeeeeeekkkkkkkkkkkkkssssssaaaaaaaaaaaaannnnnnnnnnnnnndddddddddddddddeeeerrrrrrrrrrrrrrrrrrrr
+
+dag 7:
+
+Idag er det Christian der skriver logbog, da aleksander stadig sover. Har kigget på opgaven og der ser ud til
+op til uvejr.
+
+Make some suggestion - discuss how and why to test the preformance of the application -Christians
+Discuss possible bottlenecks where and why - aleksander
+Make some flow graph of some function - done write the graph in visio, add controller function -christians
+anaylse the graph - what can you see
+advantage and disadvantage - aleksander
+
+
