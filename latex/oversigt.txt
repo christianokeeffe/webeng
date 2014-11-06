@@ -63,4 +63,11 @@ Make some flow graph of some function - done write the graph in visio, add contr
 anaylse the graph - what can you see
 advantage and disadvantage - aleksander
 
+dag 8:
 
+Jeg er syg og har ikke lyst til noget udover at sove.
+
+benefit of usage analysis and how to take it into account - a
+how to preform ab testing in your selected project - c
+advantages and disadvantages - a
+how to implementer log4php in project - c
