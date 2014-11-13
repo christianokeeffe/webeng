@@ -71,3 +71,14 @@ benefit of usage analysis and how to take it into account - a
 how to preform ab testing in your selected project - c
 advantages and disadvantages - a
 how to implementer log4php in project - c
+
+dag 9:
+
+Vi har i dag lært om man skal beskytte sig i sine web application, check yourself before you reck yourself. Har prøvet på at være leet hackerz men var lidt af en klump til det :(
+
+generelt lidt om secrurity - different kind of attacks - aleksander
+
+hvilket angreb er mulige ? -chr
+
+hvad kunne vi gøre for at beskytte os ? - aleksander
+
