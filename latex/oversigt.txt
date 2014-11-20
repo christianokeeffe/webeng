@@ -82,3 +82,9 @@ hvilket angreb er mulige ? -chr
 
 hvad kunne vi gøre for at beskytte os ? - aleksander
 
+dag 10:
+
+Der blev snakket om at vi skulle skalere vores produkt til større brug, men jeg betivler om der overhovedet er grundlag for et brug overhovedet.
+
+Choose a scalability strategy - discuss the different strategies - a
+discuss how to implement the scalability - c
