@@ -1,0 +1,5 @@
+\section{Implementation of Content-Blind Caching}
+The use the content-blind caching on our product, a structure should be made, so the code of the application can easily be copied out to different servers. A central database should be accessible for the servers, which will require us to make a server structure, which can ensure this connection (or write an API). 
+Our servers should store each query, which makes is possible only to fetch data once from the central database, for each query. As our data does not change much, it is considered safe to store the data from the query. This could for example be stored in XML files or similar.
+An implementation on the servers could be, is to implement a library, trough which all database query must be made. It checks if the data is present in the XML files, if not it request the data from the central database. 
+All modification query must be made directly to the central database.
