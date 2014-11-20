@@ -1,0 +1,23 @@
+\section{Control Flow Graph}
+We have made a control flow graph for our setData function in the country model. The code for the control flow graph can be seen on \Cref{lst:cfg}.
+\begin{code}{lst:cfg}{The setData function from the country model}
+\begin{lstlisting}
+public function setData($objectToChangeToo){
+	if ($objectToChangeToo != null)
+	{	
+		$this->dbReplace($objectToChangeToo->getId(), $objectToChangeToo->getName(), $objectToChangeToo->getCapital(), $objectToChangeToo->getPopulation());
+	} else {
+		echo "ERROR";
+	}
+}
+
+private function dbReplace($searchKey, $name, $capital, $population){
+	$con = conFatory();
+	mysqli_query($con,"UPDATE country SET name='". $name ."', capital='". $capital ."', population=". $population ." WHERE id='". $searchKey. "'");
+	mysqli_close($con);
+}
+\end{lstlisting}
+\end{code}
+
+The control flow graph can be seen on \Cref{fig:cfgfigur}.
+\figur{1}{controlflow.png}{The control flow graph for \Cref{lst:cfg}}{fig:cfgfigur}

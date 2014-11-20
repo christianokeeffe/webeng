@@ -3,11 +3,13 @@ To enable the use of routing, the Fat-Free Framework is used.
 Each route should specify which part that should be acceced. As an example, if you GET to "api/country", it will return the list of countries. You can also get a specific county if you GET to "api/country/@id". If you want to edit a country, you simply POST to "api/country/@id".
 An example can be seen on 
 \begin{code}{lst:api}{The API method for getting the list of countries.}
-\$f3->route('GET /country',
-    function(\$f3) {
-        echo json_encode(\$f3->cmodel->listOfCountries);
+\begin{lstlisting}
+$f3->route('GET /country',
+    function($f3) {
+        echo json_encode($f3->cmodel->listOfCountries);
     }
 );
+\end{lstlisting}
 \end{code}
 
 The way of using routing was found easy to understand - both for the developers and for the users of the API. 

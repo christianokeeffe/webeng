@@ -4,28 +4,30 @@ To read data from a xml document we decided to implement a controller which woul
 We starts by checking if the xml file is there. If this is the case it loading into a simplexml object by the simplexml_load_file method. We then traverse through the simplexml children which represents the xml structure and contains the data. Through different switches we construct objects represent the traversed data. This can be seen on code sample \Cref{lst:implementingxml}.
 
 \begin{code}{lst:implementingxml}{Code snippet illustrating how we reads the xml document.}
-if(isset(\$_FILES["InputFile"]))
+\begin{lstlisting}
+if(isset($_FILES["InputFile"]))
 	{
-    	\$this->xml=simplexml_load_file(\$_FILES["InputFile"]["tmp_name"]);
-        \$this->status = "uploaded";
+    	$this->xml=simplexml_load_file($_FILES["InputFile"]["tmp_name"]);
+        $this->status = "uploaded";
 
-	    \$this->counter = 0;
-	    \$this->citycounter = 0;
-	    \$this->continentcounter = 0;
+	    $this->counter = 0;
+	    $this->citycounter = 0;
+	    $this->continentcounter = 0;
 
-	    foreach (\$this->xml->children() as \$child) {
-	    	switch(\$child->getName()){
+	    foreach ($this->xml->children() as $child) {
+	    	switch($child->getName()){
 	   			case "continent":
-	  				\$this->continentname= "";
-	    			\$this->continentid= "";
-	    			foreach (\$child->attributes() as \$continentData){
-	    				switch(\$continentData->getName()){
+	  				$this->continentname= "";
+	    			$this->continentid= "";
+	    			foreach ($child->attributes() as $continentData){
+	    				switch($continentData->getName()){
 	    					case "name":
-	    						\$this->continentname = \$continentData;
+	    						$this->continentname = $continentData;
 	    						break;
     						case "id":
-	    						\$this->continentid = \$continentData;
+	    						$this->continentid = $continentData;
 	    						break;
 					}
   			}
+  			\end{lstlisting}
 \end{code}

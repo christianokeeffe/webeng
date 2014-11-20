@@ -1,6 +1,37 @@
 \BOOKMARK [1][-]{section.0.1}{0.1 Choice of Data Set and its Structure}{}% 1
 \BOOKMARK [1][-]{section.0.2}{0.2 MVC pattern}{}% 2
 \BOOKMARK [2][-]{subsection.0.2.1}{0.2.1 Model-part}{section.0.2}% 3
-\BOOKMARK [1][-]{section.0.3}{0.3 Choice of Pattern in Model}{}% 4
-\BOOKMARK [1][-]{section.0.4}{0.4 Implementation of Model}{}% 5
-\BOOKMARK [0][-]{section*.2}{Bibliography}{}% 6
+\BOOKMARK [1][-]{section.0.3}{0.3 Implementation of MVC}{}% 4
+\BOOKMARK [1][-]{section.0.4}{0.4 Choice of Pattern in Model}{}% 5
+\BOOKMARK [1][-]{section.0.5}{0.5 About the View}{}% 6
+\BOOKMARK [1][-]{section.0.6}{0.6 About the Controller}{}% 7
+\BOOKMARK [1][-]{section.0.7}{0.7 Implementation of Model}{}% 8
+\BOOKMARK [1][-]{section.0.8}{0.8 Implementation of XML}{}% 9
+\BOOKMARK [1][-]{section.0.9}{0.9 Use of XSLT}{}% 10
+\BOOKMARK [1][-]{section.0.10}{0.10 Test of xQuary}{}% 11
+\BOOKMARK [1][-]{section.0.11}{0.11 Webservices}{}% 12
+\BOOKMARK [1][-]{section.0.12}{0.12 Web Service Solutions}{}% 13
+\BOOKMARK [2][-]{subsection.0.12.1}{0.12.1 Comparison}{section.0.12}% 14
+\BOOKMARK [1][-]{section.0.13}{0.13 Implementation}{}% 15
+\BOOKMARK [1][-]{section.0.14}{0.14 Navigation Designs}{}% 16
+\BOOKMARK [1][-]{section.0.15}{0.15 Navigation Design Techniques}{}% 17
+\BOOKMARK [1][-]{section.0.16}{0.16 Navigation}{}% 18
+\BOOKMARK [1][-]{section.0.17}{0.17 Presentation}{}% 19
+\BOOKMARK [1][-]{section.0.18}{0.18 Reflection}{}% 20
+\BOOKMARK [1][-]{section.0.19}{0.19 RDF/RDFS}{}% 21
+\BOOKMARK [1][-]{section.0.20}{0.20 SPARQL}{}% 22
+\BOOKMARK [1][-]{section.0.21}{0.21 Performance Test}{}% 23
+\BOOKMARK [1][-]{section.0.22}{0.22 Application Bottleneck}{}% 24
+\BOOKMARK [1][-]{section.0.23}{0.23 Control Flow Graph}{}% 25
+\BOOKMARK [1][-]{section.0.24}{0.24 Analysis of Control Flow Graph}{}% 26
+\BOOKMARK [1][-]{section.0.25}{0.25 Advantages and Disadvantages of Data Flow Testing}{}% 27
+\BOOKMARK [1][-]{section.0.26}{0.26 Usage Analysis}{}% 28
+\BOOKMARK [1][-]{section.0.27}{0.27 Implementation of AB-testing}{}% 29
+\BOOKMARK [1][-]{section.0.28}{0.28 Advantages and Disadvantages of AB Testing}{}% 30
+\BOOKMARK [1][-]{section.0.29}{0.29 Implementation of log4php}{}% 31
+\BOOKMARK [1][-]{section.0.30}{0.30 Security}{}% 32
+\BOOKMARK [1][-]{section.0.31}{0.31 Possible Attacks on Our Application}{}% 33
+\BOOKMARK [1][-]{section.0.32}{0.32 Preventing Attacks in our Web Application}{}% 34
+\BOOKMARK [1][-]{section.0.33}{0.33 Scalability Strategy}{}% 35
+\BOOKMARK [1][-]{section.0.34}{0.34 Implementation of Content-Blind Caching}{}% 36
+\BOOKMARK [0][-]{section*.3}{Bibliography}{}% 37
