@@ -4,4 +4,4 @@
 
 \figur{1}{2PC.png}{An example of a 2 Phase Commit Protocol}{fig:2CP}
 
-An implementation of 2PC in our project could be between the commercial site providing advertising and our site. The value exchange between these two sites could be validated by 2PC. Another solution could be in the back-end, if multiple tables should be updated. It could be validated that each table update would be performed correctly, and alternatively roll back the changes.
+An implementation of 2PC in our project could be between the commercial site providing advertising and our site. The value exchange between these two sites could be validated by 2PC. Another solution could be in the back-end, if multiple tables should be updated. It could be validated that each table update would be performed correctly, and alternatively roll back the changes. In this case back-end would be the coordinator for 2CP, with the database as one of the participants.
