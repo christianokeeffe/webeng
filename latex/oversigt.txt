@@ -88,3 +88,11 @@ Der blev snakket om at vi skulle skalere vores produkt til større brug, men jeg
 
 Choose a scalability strategy - discuss the different strategies - a
 discuss how to implement the scalability - c
+
+dag 1000001:
+
+Helvede forsætter, jeg er nu overbevist om hvordan man har levet sit liv har konsekvenser for efterlivet. Jeg fortryder alt, undskyld alle jeg har gjort ondt, please bare save mig!
+
+discuss ph2 design for project - c
+discuss what is needed for providing behavoir under the fault tolerance - why and what consequences, various choices ? - a
+advantages, disadvantages and reflect on problems - en eller anden som ikke er mig
