@@ -1,6 +1,5 @@
 \section{Choice of Pattern in Model}
-We have chose to have a simple domain model with class table inheritance. This has been chosen due to the close connection between the database and the domain model. This will ensure that all columns are relevant for the rows, and the domain model will easily reflect the content of the database.
+We have chosen to have a simple domain model with class table inheritance. This has been chosen due to the close connection between the database and the domain model. This will ensure that all columns are relevant for the rows, and the domain model will easily reflect the content of the database.
 In comparison to a concrete table inheritance, the primary keys are easily handled.
-In contrary to both the concrete table inheritance and the single table inheritance the class table inheritance do not do any irrelevant joins, and do not fetch any irrelevant data.
-This will ensure small, precise tables, which is faster to load from the database.
-In that way, we will not have to fetch on, possible very big, table. It has the consequence that multiple calls to the database could be required, but it is only the relevant data, which is fetched.
+
+In contrary to both the concrete table inheritance and the single table inheritance, the class table inheritance do not do any irrelevant joins, and do not fetch any irrelevant data. This will ensure small, precise tables, which is faster to load from the database. In that way, we will not have to fetch one, possible very big, table. It has the consequence that multiple calls to the database could be required, but it is only the relevant data, which is fetched.
