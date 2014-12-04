@@ -1,5 +1,6 @@
 \section{Advantages and Disadvantages of 2PC}
-The advantages of 2PC is, that it will enable error recovery. If a participant produces an error, the coordinator would accept this, and tell other participants not to perform their actions. This will prevent the page for given an error or miscalculation.
-The problems with 2PC could be that it cannot guarantee a non-blocking behavior, which can make the system halt. It can also be hard to resolve an error, if the error occurs in the coordinator.
+The advantages of 2PC is error recovery. If a participant produces an error, the coordinator will register the error and propagates to other participants that they should not commit. This will prevent the page for given an error or miscalculation and ensure data consistency.
 
-All in all, 2PC can be a very powerful tool in error recovery, but it is not perfect, and you should be clear of what to do if e.g. the coordinator produces an error.
+A problem with 2PC is that it cannot guarantee a non-blocking behavior, which can cause a system halt. It can also be hard to resolve an error, if the error occurs at the coordinator site.
+
+So 2PC can be a very powerful tool in error recovery, but it is not perfect, and you should take this into consideration when designing a system with PC2 and design the system to handle situation where e.g. the coordinator produces an error.
