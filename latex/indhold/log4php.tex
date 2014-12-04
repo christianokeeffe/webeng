@@ -1,7 +1,7 @@
 \section{Implementation of log4php}
-log4php can quite easily be implemented in our PHP framework.
-When included, you can specify the different logs in the PHP code. An example can be seen on \Cref{lst:log4php}.
-\begin{code}{lst:log4php}{An example of an use of log4php}
+log4php can quite easily be implemented in our PHP framework. When included, you can specify the different logs in the PHP code. An example can be seen on \Cref{lst:log4php}.
+
+\begin{code}{lst:log4php}{An example of an use of log4php.}
 \begin{lstlisting}
 include('Logger.php');
 $logger = Logger::getLogger("main");
@@ -10,4 +10,4 @@ $logger->warn("I'm not feeling so good...");
 \end{lstlisting}
 \end{code}
 
-In our project, we would locate the logs in the controller, logging each time the user make an error in the forms, and the time used on the different pages. This can be used to see which page result in the fewest user errors, and which page makes the user complete their task in shortest time.
+In our project, we would locate the logs in the controller, logging each time the user make an error in the forms, and the time used on the different pages. This can be used to see which page result in the fewest user errors, which page makes the user complete their task in shortest time and if a page even is reached.
