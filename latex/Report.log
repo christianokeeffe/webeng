@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.5)  20 NOV 2014 15:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.5)  4 DEC 2014 10:05
 entering extended mode
 **C:/xampp/htdocs/webeng/latex/Report.tex
 (C:/xampp/htdocs/webeng/latex/Report.tex
@@ -2116,11 +2116,11 @@ Headheight and headsep: 13.6pt and 19.8738pt
 Footskip: 27.46295pt
 Columnsep and columnseprule: 10pt and 0pt
 Marginparsep and marginparwidth: 7pt and 57.13188pt
-Sidecapsep and sidecapwidth: 7pt and 101pt
-Sidebarhsep and sidebarwidth: 7pt and 101pt
+Sidecapsep and sidecapwidth: 7pt and 49pt
+Sidebarhsep and sidebarwidth: 7pt and 49pt
 Sidebarvsep and sidebartopsep: 13.6pt and 0pt
 Sidebarheight: 594.32022pt
-Sidefoothsep and sidefootwidth: 7pt and 101pt
+Sidefoothsep and sidefootwidth: 7pt and 49pt
 Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
@@ -2499,20 +2499,20 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 (C:\xampp\htdocs\webeng\latex\formalia/FormaliaForside.tex) [1
 
 {C:/Users/Christian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pbk.fd")
 (C:\xampp\htdocs\webeng\latex\indhold/XMLStructure.tex)
 (C:\xampp\htdocs\webeng\latex\indhold/MVC.tex
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 9.
 )
 (C:\xampp\htdocs\webeng\latex\indhold/mvcimpl.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/aboutModel.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/aboutView.tex [2
+(C:\xampp\htdocs\webeng\latex\indhold/aboutModel.tex [2
+
 
 ])
+(C:\xampp\htdocs\webeng\latex\indhold/aboutView.tex)
 (C:\xampp\htdocs\webeng\latex\indhold/aboutController.tex)
 (C:\xampp\htdocs\webeng\latex\indhold/implModel.tex
-Package mdframed Info: mdframed works in twoside mode on input line 4.
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
@@ -2524,8 +2524,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 21.
 See the caption package documentation for explanation.
 
-Package mdframed Info: mdframed works in twoside mode on input line 25.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+[3] ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package mdframed Info: mdframed inside a box 
@@ -2536,14 +2535,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 51.
 See the caption package documentation for explanation.
 
-) (C:\xampp\htdocs\webeng\latex\indhold/xmlImplemetation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 25--1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 25--24
 
  []
 
-[3]
-Package mdframed Info: mdframed works in twoside mode on input line 6.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+[4] (C:\xampp\htdocs\webeng\latex\indhold/xmlImplemetation.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package mdframed Info: mdframed inside a box 
@@ -2559,9 +2557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--1
 
  []
 
-[4]
-Package mdframed Info: mdframed works in twoside mode on input line 5.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package mdframed Info: mdframed inside a box 
@@ -2577,12 +2573,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-[5]) (C:\xampp\htdocs\webeng\latex\indhold/webservices.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/WebServiceSolution.tex [6])
-(C:\xampp\htdocs\webeng\latex\indhold/webserviceComparison.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/apiimpl.tex
-Package mdframed Info: mdframed works in twoside mode on input line 5.
+[5
 
+]) [6] (C:\xampp\htdocs\webeng\latex\indhold/webservices.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/WebServiceSolution.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/webserviceComparison.tex [7
+
+])
+(C:\xampp\htdocs\webeng\latex\indhold/apiimpl.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
@@ -2594,18 +2592,22 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-[7]) (C:\xampp\htdocs\webeng\latex\indhold/requirements.tex [8])
-(C:\xampp\htdocs\webeng\latex\indhold/designintro.tex [9])
-(C:\xampp\htdocs\webeng\latex\indhold/navigation.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/presentation.tex [10])
-(C:\xampp\htdocs\webeng\latex\indhold/designreflection.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/rdf.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/SPARQL.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/performancetest.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/TestBottleneck.tex [11])
-(C:\xampp\htdocs\webeng\latex\indhold/cfg.tex
-Package mdframed Info: mdframed works in twoside mode on input line 3.
+) [8] (C:\xampp\htdocs\webeng\latex\indhold/requirements.tex [9
 
+]) [10]
+(C:\xampp\htdocs\webeng\latex\indhold/designintro.tex [11
+
+])
+(C:\xampp\htdocs\webeng\latex\indhold/navigation.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/presentation.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/designreflection.tex [12]) [13]
+(C:\xampp\htdocs\webeng\latex\indhold/rdf.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/SPARQL.tex) [14
+
+]
+(C:\xampp\htdocs\webeng\latex\indhold/performancetest.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/TestBottleneck.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/cfg.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
@@ -2617,22 +2619,24 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 20.
 See the caption package documentation for explanation.
 
-[12] <billeder/controlflow.png, id=350, 307.1475pt x 476.5002pt>
+[15
+
+] <billeder/controlflow.png, id=420, 307.1475pt x 476.5002pt>
 File: billeder/controlflow.png Graphic file (type png)
 
 <use billeder/controlflow.png>
 Package pdftex.def Info: billeder/controlflow.png used on input line 23.
 (pdftex.def)             Requested size: 426.0pt x 660.93008pt.
 )
-(C:\xampp\htdocs\webeng\latex\indhold/controlflowanalysis.tex [13])
-(C:\xampp\htdocs\webeng\latex\indhold/ProAndConOfDataFlowTEst.tex [14 <C:/xampp
-/htdocs/webeng/latex/billeder/controlflow.png>])
+(C:\xampp\htdocs\webeng\latex\indhold/controlflowanalysis.tex [16])
+(C:\xampp\htdocs\webeng\latex\indhold/ProAndConOfDataFlowTEst.tex [17 <C:/xampp
+/htdocs/webeng/latex/billeder/controlflow.png>]) [18]
 (C:\xampp\htdocs\webeng\latex\indhold/usageAnalysis.tex)
 (C:\xampp\htdocs\webeng\latex\indhold/ABimpl.tex)
 (C:\xampp\htdocs\webeng\latex\indhold/abTestingAdvantagesDisadvantages.tex
-[15]) (C:\xampp\htdocs\webeng\latex\indhold/log4php.tex
-Package mdframed Info: mdframed works in twoside mode on input line 4.
+[19
 
+]) (C:\xampp\htdocs\webeng\latex\indhold/log4php.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
@@ -2644,54 +2648,71 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 11.
 See the caption package documentation for explanation.
 
-) (C:\xampp\htdocs\webeng\latex\indhold/Security.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/attacksOnOurApplication.tex [16])
-(C:\xampp\htdocs\webeng\latex\indhold/PreventingAttacksinourWebApplication.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/ScalabilityStrategies.tex)
-(C:\xampp\htdocs\webeng\latex\indhold/implcontentblindcaching.tex)
-(C:\xampp\htdocs\webeng\latex\Report.bbl [17] [18
+) [20] (C:\xampp\htdocs\webeng\latex\indhold/Security.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/attacksOnOurApplication.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/PreventingAttacksinourWebApplication.tex
+[21
+
+]) [22] (C:\xampp\htdocs\webeng\latex\indhold/ScalabilityStrategies.tex)
+(C:\xampp\htdocs\webeng\latex\indhold/implcontentblindcaching.tex) [23
 
 ]
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pbk.fd")
+[24] (C:\xampp\htdocs\webeng\latex\indhold/impl2PC.tex
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+LaTeX Warning: Reference `fig:2PC' on page 1 undefined on input line 3.
 
-) [19] 
+<billeder/2PC.png, id=493, 408.02437pt x 346.29375pt>
+File: billeder/2PC.png Graphic file (type png)
+ <use billeder/2PC.png>
+Package pdftex.def Info: billeder/2PC.png used on input line 5.
+(pdftex.def)             Requested size: 426.0pt x 361.56895pt.
+
+[25
+
+]) (C:\xampp\htdocs\webeng\latex\indhold/faulttolerancec.tex [26 <C:/xampp/htdo
+cs/webeng/latex/billeder/2PC.png>])
+(C:\xampp\htdocs\webeng\latex\indhold/2PCProsCons.tex) [27]
+
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 (C:\xampp\htdocs\webeng\latex\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 0D226AD30A42CA3581BE3D8E6CB26CB7;2420.
+(rerunfilecheck)             Checksum: 13086CF2BB94DDC26BEF20370770374D;3564.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 41730 strings out of 493921
- 777468 string characters out of 3147271
- 1100411 words of memory out of 3000000
- 44014 multiletter control sequences out of 15000+200000
- 22853 words of font info for 62 fonts, out of 3000000 for 9000
+ 41782 strings out of 493921
+ 778263 string characters out of 3147271
+ 1101354 words of memory out of 3000000
+ 44036 multiletter control sequences out of 15000+200000
+ 24329 words of font info for 64 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 76i,12n,82p,932b,3522s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Chris
-tian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi657\ecti1000.pk> <
-C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi657\
-ecbx1000.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi657\tcrm1000.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ectt0900.pk> <C:\Users\Christian\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\Christian\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0900.pk> <C:\Users\
-Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
-pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i720\ecbx1200.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+ 76i,12n,82p,1144b,3520s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
+657\ecbx1000.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi657\tcrm1000.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk> <C:\Users\Christian\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\Christian\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0900.pk> <C:\Us
+ers\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
+200.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi720\ecbx1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.e
+nc} <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i657\ecti1000.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
 jknappen\ec\dpi657\ecrm1000.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fo
 nts\pk\ljfour\jknappen\ec\dpi720\eccc1200.pk> <C:\Users\Christian\AppData\Local
 \MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi657\ecsl1000.pk><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on Report.pdf (19 pages, 498352 bytes).
+KTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/bookman/ubkl8a.pfb>
+Output written on Report.pdf (27 pages, 923809 bytes).
 PDF statistics:
- 861 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 410 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1000 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 519 words of extra memory for PDF output out of 10000 (max. 10000000)
 

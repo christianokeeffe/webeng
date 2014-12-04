@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt,fleqn,twoside,openright]{memoir} % Brug openright hvis chapters skal starte på højresider; openany, oneside
+\documentclass[a4paper,11pt,fleqn,oneside,openany]{memoir} % Brug openright hvis chapters skal starte på højresider; openany, oneside
 
 %%%% PACKAGES %%%%
 
@@ -216,8 +216,8 @@ morekeywords={}
 \def\chaptermark##1{\markboth{\itshape\thechapter. ##1}{}} % Henter kapitlet den pågældende side hører under med kommandoen \leftmark. \itshape gør teksten kursiv
 \def\sectionmark##1{\markright{\thesection. ##1}{}}	% Henter afsnittet den pågældende side hører under med kommandoen \rightmark
 } % Sidetallet skrives med kommandoen \thepage	
-\makeevenhead{custom}{\leftmark}{}{Group SW615F14} % Definerer lige siders sidehoved efter modellen \makeevenhead{Navn}{Venstre}{Center}{Højre}
-\makeoddhead{custom}{Group SW615F14}{}{\leftmark} % Definerer ulige siders sidehoved efter modellen \makeoddhead{Navn}{Venstre}{Center}{Højre}
+\makeevenhead{custom}{\leftmark}{}{cjok11 \& anilss11} % Definerer lige siders sidehoved efter modellen \makeevenhead{Navn}{Venstre}{Center}{Højre}
+\makeoddhead{custom}{cjok11 \& anilss11}{}{\leftmark} % Definerer ulige siders sidehoved efter modellen \makeoddhead{Navn}{Venstre}{Center}{Højre}
 
 \usepackage{lastpage}
 \usepackage{ifthen}
@@ -230,8 +230,8 @@ morekeywords={}
 \makefootrule{custom}{\textwidth}{0.5pt}{1mm}	% Tilføjer en streg under sidefodens indhold
 
 \copypagestyle{nychapter}{custom} % Følgende linier sørger for, at sidefoden bibeholdes på kapitlets første side
-\makeoddhead{nychapter}{Group SW615F14}{}{\leftmark}
-\makeevenhead{nychapter}{Group SW615F14}{}{\leftmark}
+\makeoddhead{nychapter}{cjok11 \& anilss11}{}{\leftmark}
+\makeevenhead{nychapter}{cjok11 \& anilss11}{}{\leftmark}
 \makeheadrule{nychapter}{\textwidth}{0pt}
 \aliaspagestyle{chapter}{nychapter}	% <--
 \aliaspagestyle{cleared}{custom}
