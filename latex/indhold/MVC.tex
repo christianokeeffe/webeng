@@ -3,9 +3,13 @@ The model-view-control pattern is a pattern which insures data binding between t
 The general idea is to create a model which contains the data which is to be processed in somewhere and proceed to load the data into the model.
 Next step is to create views to display the information to the users in manageable and nice way. The last step is to create the controller, methods and functions for the user to manipulate the shown information and aggregated it back to model which then is updated.
 
+This is a widespread technique to create web application and is supported by many frameworks. An example could be angular, which practices two way binding in their constructions.
+
 \subsection{Model-part}
 There are different structures that can used to construct the model of the data. One way is to a gateway, which through some functions finds the needed data in the database. Another method is to create an objects or records which is used to contain the data. A third method is to use transaction to get and update data in the database. A fought method is to create a object to contain the data and another object to map the data between the database and the application.
 
-\fxfatal{skrive om view og controller parts ?}
+\subsection{View-part}
+The view is the presentation of the data, with not functionality other than the presentation. The view could be implemented as a template view, which is a single template page which presents the data, a transform view, which includes a transformer, which generates a view from the data, or a two-step view, which first render the data, and thereafter renders the presentation.
 
-This is a widespread technique to create web application and us supported by many frameworks. An example could be angular which practices two way binding in their constructions.
+\subsection{Controller-part}
+The controller is containing the functionality, used to alter and update the data, and do calculated used in the view and model. It could be implemented as a application controller or a page controller, which control which model and view to load, compared to a given page.
