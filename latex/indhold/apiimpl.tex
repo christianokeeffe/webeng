@@ -1,8 +1,7 @@
-\section{Implementation}
-To enable the use of routing, the Fat-Free Framework is used. 
-Each route should specify which part that should be acceced. As an example, if you GET to "api/country", it will return the list of countries. You can also get a specific county if you GET to "api/country/@id". If you want to edit a country, you simply POST to "api/country/@id".
-An example can be seen on 
-\begin{code}{lst:api}{The API method for getting the list of countries.}
+\section{Implementation of the API}
+We decided to make a back-end because it insures better quality communication in terms of error handling, the formatting of responses and the possibility for multiple applications to communicate with the database through the API. In previous section we reasoned for the choice of REST and the advantages of it. So for implementing REST we make us of the Fat-Free Framework which utilizes routing to process request. Each route should specify which part that should be accessed. As an example, if you make GET request to "api/country", it will return the list of countries. You can also get a specific county if you make GET request to "api/country/@id". If you want to edit a country, you simply make POST request to "api/country/@id". An example can be seen on \Cref{lst:api}.
+
+\begin{code}{lst:api}{The API call for getting the list of countries.}
 \begin{lstlisting}
 $f3->route('GET /country',
     function($f3) {
@@ -12,5 +11,4 @@ $f3->route('GET /country',
 \end{lstlisting}
 \end{code}
 
-The way of using routing was found easy to understand - both for the developers and for the users of the API. 
-To communicate with the database, the API use the model classes made to our application.
+After experimenting with implementing Fat-Free framework and REST in general, we found routing to be an attractive method for calling the API in terms of understandable and using it.
