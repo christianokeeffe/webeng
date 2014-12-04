@@ -1,9 +1,9 @@
 \section{Implementation of XML}
-To read data from a xml document we decided to implement a controller which would extract the data from the xml document. The extracted data are then stored in the model, organize of meta-data classes designed for the data. We use the extracted data to fill a MySQL database which allows to access the data through SQL quarries.
+To read data from a XML document we decided to implement a controller which would extract the data from the XML document. The extracted data are then stored in the model, organized in meta-data classes designed for the data. We use the extracted data to fill a MySQL database which allows to access the data through SQL quarries.
 
-We starts by checking if the xml file is there. If this is the case it loading into a simplexml object by the simplexml_load_file method. We then traverse through the simplexml children which represents the xml structure and contains the data. Through different switches we construct objects represent the traversed data. This can be seen on code sample \Cref{lst:implementingxml}.
+We starts by checking if the XML file is there. If this is the case it loading into a simplexml object by the simplexml\_load\_file method. We then traverse through the simplexml children which represents the XML structure and contains the data. Through different switches we construct objects represent the traversed data. This can be seen on code sample \Cref{lst:implementingxml}.
 
-\begin{code}{lst:implementingxml}{Code snippet illustrating how we reads the xml document.}
+\begin{code}{lst:implementingxml}{Code snippet illustrating how we reads the XML document.}
 \begin{lstlisting}
 if(isset($_FILES["InputFile"]))
 	{
