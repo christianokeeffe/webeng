@@ -1,6 +1,7 @@
 \section{Possible Attacks on Our Application}
 Our application has a lot of problems in regard to security.
+
 An example of this could be the input fields on the edit country page where no validation is done. The input values should of course be validated and escaped to ensure that for example SQL injection is not possible.
 The login has not been implemented, so it is possible for everyone to use our edit country method. The API of the application do not use any API keys or other authentication, which will make it very easy to abuse our API. The API does not validate the inputs or escape the inputs, which again make SQL injection possible. The site does not take care of encodings or overflows either.
 
-So our system is very vulnerable to attacks.
+So our system is very vulnerable to attacks. It is though considered only a smaller problem for our mini-project, as it is only running as a little local project. Though if it should go commercial, these security issued would be major problem and would definitely have to be addressed. Further in this sections we will address these security problems as they were to be addressed.
