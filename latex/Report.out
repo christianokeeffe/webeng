@@ -2,49 +2,51 @@
 \BOOKMARK [1][-]{section.1.1}{1.1 Choice of Data Set and its Structure}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{1.2 MVC pattern}{chapter.1}% 3
 \BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Model-part}{section.1.2}% 4
-\BOOKMARK [1][-]{section.1.3}{1.3 Implementation of MVC}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.4}{1.4 Choice of Pattern in Model}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.5}{1.5 About the View}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.6}{1.6 About the Controller}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.7}{1.7 Implementation of Model}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{2 Data I: XML}{}% 10
-\BOOKMARK [1][-]{section.2.1}{2.1 Implementation of XML}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{2.2 Use of XSLT}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{2.3 Test of xQuary}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{3 Service Based Integration}{}% 14
-\BOOKMARK [1][-]{section.3.1}{3.1 Webservices}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{3.2 Web Service Solutions}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Comparison}{section.3.2}% 17
-\BOOKMARK [1][-]{section.3.3}{3.3 Implementation}{chapter.3}% 18
-\BOOKMARK [0][-]{chapter.4}{4 Requirments}{}% 19
-\BOOKMARK [0][-]{chapter.5}{5 Design}{}% 20
-\BOOKMARK [1][-]{section.5.1}{5.1 Navigation Designs}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{5.2 Navigation Design Techniques}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.3}{5.3 Navigation}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.4}{5.4 Presentation}{chapter.5}% 24
-\BOOKMARK [1][-]{section.5.5}{5.5 Reflection}{chapter.5}% 25
-\BOOKMARK [0][-]{chapter.6}{6 Data II: Semantic Web Technologies}{}% 26
-\BOOKMARK [1][-]{section.6.1}{6.1 RDF/RDFS}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.2}{6.2 SPARQL}{chapter.6}% 28
-\BOOKMARK [0][-]{chapter.7}{7 Quality I: performance and dataflow testing}{}% 29
-\BOOKMARK [1][-]{section.7.1}{7.1 Performance Test}{chapter.7}% 30
-\BOOKMARK [1][-]{section.7.2}{7.2 Application Bottleneck}{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.3}{7.3 Control Flow Graph}{chapter.7}% 32
-\BOOKMARK [1][-]{section.7.4}{7.4 Analysis of Control Flow Graph}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.5}{7.5 Advantages and Disadvantages of Data Flow Testing}{chapter.7}% 34
-\BOOKMARK [0][-]{chapter.8}{8 Quality II: usage analysis and A/B testing}{}% 35
-\BOOKMARK [1][-]{section.8.1}{8.1 Usage Analysis}{chapter.8}% 36
-\BOOKMARK [1][-]{section.8.2}{8.2 Implementation of AB-testing}{chapter.8}% 37
-\BOOKMARK [1][-]{section.8.3}{8.3 Advantages and Disadvantages of AB Testing}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.4}{8.4 Implementation of log4php}{chapter.8}% 39
-\BOOKMARK [0][-]{chapter.9}{9 Web Application Security}{}% 40
-\BOOKMARK [1][-]{section.9.1}{9.1 Security}{chapter.9}% 41
-\BOOKMARK [1][-]{section.9.2}{9.2 Possible Attacks on Our Application}{chapter.9}% 42
-\BOOKMARK [1][-]{section.9.3}{9.3 Preventing Attacks in our Web Application}{chapter.9}% 43
-\BOOKMARK [0][-]{chapter.10}{10 Scalability}{}% 44
-\BOOKMARK [1][-]{section.10.1}{10.1 Scalability Strategy}{chapter.10}% 45
-\BOOKMARK [1][-]{section.10.2}{10.2 Implementation of Content-Blind Caching}{chapter.10}% 46
-\BOOKMARK [0][-]{chapter.11}{11 Fault Tolerance and Transactions}{}% 47
-\BOOKMARK [1][-]{section.11.1}{11.1 2 Phase Commit Protocol}{chapter.11}% 48
-\BOOKMARK [1][-]{section.11.2}{11.2 Fault Tolerance}{chapter.11}% 49
-\BOOKMARK [1][-]{section.11.3}{11.3 Advantages and Disadvantages of 2PC}{chapter.11}% 50
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 View-part}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Controller-part}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{1.3 Implementation of MVC}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{1.4 Choice of Pattern in Model}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.5}{1.5 About the View}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.6}{1.6 About the Controller}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.7}{1.7 Implementation of Model}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{2 Data I: XML}{}% 12
+\BOOKMARK [1][-]{section.2.1}{2.1 Implementation of XML}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{2.2 Use of XSLT}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{2.3 Test of xQuary}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{3 Service Based Integration}{}% 16
+\BOOKMARK [1][-]{section.3.1}{3.1 Webservices}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{3.2 Web Service Solutions}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Comparison}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{3.3 Implementation of the API}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{4 Requirments}{}% 21
+\BOOKMARK [0][-]{chapter.5}{5 Design}{}% 22
+\BOOKMARK [1][-]{section.5.1}{5.1 Navigation Designs}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.2}{5.2 Navigation Design Techniques}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.3}{5.3 Navigation}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.4}{5.4 Presentation}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.5}{5.5 Reflection}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{6 Data II: Semantic Web Technologies}{}% 28
+\BOOKMARK [1][-]{section.6.1}{6.1 RDF/RDFS}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.2}{6.2 SPARQL}{chapter.6}% 30
+\BOOKMARK [0][-]{chapter.7}{7 Quality I: performance and dataflow testing}{}% 31
+\BOOKMARK [1][-]{section.7.1}{7.1 Performance Test}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.2}{7.2 Application Bottleneck}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.3}{7.3 Control Flow Graph}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.4}{7.4 Analysis of Control Flow Graph}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.5}{7.5 Advantages and Disadvantages of Data Flow Testing}{chapter.7}% 36
+\BOOKMARK [0][-]{chapter.8}{8 Quality II: usage analysis and A/B testing}{}% 37
+\BOOKMARK [1][-]{section.8.1}{8.1 Usage Analysis}{chapter.8}% 38
+\BOOKMARK [1][-]{section.8.2}{8.2 Implementation of AB-testing}{chapter.8}% 39
+\BOOKMARK [1][-]{section.8.3}{8.3 Advantages and Disadvantages of AB Testing}{chapter.8}% 40
+\BOOKMARK [1][-]{section.8.4}{8.4 Implementation of log4php}{chapter.8}% 41
+\BOOKMARK [0][-]{chapter.9}{9 Web Application Security}{}% 42
+\BOOKMARK [1][-]{section.9.1}{9.1 Security}{chapter.9}% 43
+\BOOKMARK [1][-]{section.9.2}{9.2 Possible Attacks on Our Application}{chapter.9}% 44
+\BOOKMARK [1][-]{section.9.3}{9.3 Preventing Attacks in our Web Application}{chapter.9}% 45
+\BOOKMARK [0][-]{chapter.10}{10 Scalability}{}% 46
+\BOOKMARK [1][-]{section.10.1}{10.1 Scalability Strategy}{chapter.10}% 47
+\BOOKMARK [1][-]{section.10.2}{10.2 Implementation of Content-Blind Caching}{chapter.10}% 48
+\BOOKMARK [0][-]{chapter.11}{11 Fault Tolerance and Transactions}{}% 49
+\BOOKMARK [1][-]{section.11.1}{11.1 2 Phase Commit Protocol}{chapter.11}% 50
+\BOOKMARK [1][-]{section.11.2}{11.2 Fault Tolerance}{chapter.11}% 51
+\BOOKMARK [1][-]{section.11.3}{11.3 Advantages and Disadvantages of 2PC}{chapter.11}% 52

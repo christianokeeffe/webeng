@@ -1,6 +1,6 @@
 \section{2 Phase Commit Protocol}
 2 phase commit protocol (2PC) purpose is, to ensure every function in a group is evaluated, or no function is evaluated. This will ensure that if an error occurs in one function, the other functions are rolled back, so no wrong value is stored. An example of a use of this, could be an exchange of values, e.g. money for a product. If something goes wrong, so the money is not delivered, the product should not be sent.
-2PC is implemented by a coordinator and a number of participants. The coordinator will coordinate the participants, starting by sending a prepare statement to each participants. If each of the participants return yes, the coordinator send the commit statement to each of the participants, which will commit their prepared log. An example can of this can be seen on \Cref{fig:2PC}
+2PC is implemented by a coordinator and a number of participants. The coordinator will coordinate the participants, starting by sending a prepare statement to each participants. If each of the participants return yes, the coordinator send the commit statement to each of the participants, which will commit their prepared log. An example can of this can be seen on \Cref{fig:2CP}.
 
 \figur{1}{2PC.png}{An example of a 2 Phase Commit Protocol}{fig:2CP}
 
